@@ -1,5 +1,14 @@
 import styles from "./style";
-import { Hero, NavBar, Tracks, Prizes, Sponsors, Footer } from "./components";
+import {
+  Hero,
+  AboutUs,
+  NavBar,
+  Tracks,
+  Prizes,
+  Sponsors,
+  Footer,
+  Timeline,
+} from "./components";
 
 const App = () => (
   <div className=" w-full overflow-hidden">
@@ -13,11 +22,14 @@ const App = () => (
         <Hero />
       </div>
     </div>
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+    <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        {/* <div className="sec " id="aboutus">
+        <div className="sec " id="timeline">
+          <Timeline />
+        </div>
+        <div className="sec" id="aboutus">
           <AboutUs />
-        </div> */}
+        </div>
         <div className="sec" id="tracks">
           <Tracks />
         </div>
