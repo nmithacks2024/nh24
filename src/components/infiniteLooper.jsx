@@ -1,4 +1,4 @@
-import { logo } from "../assets";
+import { logo } from "../../public/assets";
 import "./infiniteLooper.css";
 
 export default function InfiniteLooper(props) {

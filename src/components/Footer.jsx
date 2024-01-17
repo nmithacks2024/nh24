@@ -2,7 +2,7 @@ import React from "react";
 import InfiniteLooper from "./infiniteLooper";
 import "./infiniteLooper.css";
 import Reveal from "./Reveal";
-import { facebook, instagram, linkedin, twitter } from "../assets";
+import { facebook, instagram, linkedin, twitter } from "../../public/assets";
 
 function Footer() {
   const [memberName, setMemberName] = React.useState(null);
@@ -27,10 +27,10 @@ function Footer() {
       <div className="h-fit flex flex-col gap-1 bottom-0 bg-[#101010] text-white items-center pt-5 pb-5">
         <div className="flex justify-center items-center gap-5">
           <div className="w-1/2 h-[100px] flex justify-center items-center">
-            <img src="src/assets/nmitLogo.png" alt="nmit" />
+            <img src="/assets/nmitLogo.png" alt="nmit" />
           </div>
           <div className="scale-50 w-1/2 flex justify-center items-center h-[200px]">
-            <img src="src/assets/logo2.png" alt="nmit hacks" />
+            <img src="/assets/logo2.png" alt="nmit hacks" />
           </div>
         </div>
 

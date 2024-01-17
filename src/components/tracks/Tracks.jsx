@@ -2,7 +2,7 @@
 import styled from "styled-components";
 import New2CardTrack from "./TracksCard";
 import Reveal from "../Reveal";
-import { ai, blockchain, game, iot, oi } from "../../assets";
+import { ai, blockchain, game, iot, oi } from "../../../public/assets";
 
 function Tracks() {
   return (
@@ -16,29 +16,29 @@ function Tracks() {
         <New2CardTrack
           title="Game Dev"
           text="Create games that intrigue and bring alive a crowd with our brand new track."
-          imgUrl="src\assets\game.png"
+          imgUrl="\assets\game.png"
         />
         <New2CardTrack
           title="IOT"
           text="Connect several devices together and help them communicate efficiently to help the world in your own, unique way."
-          imgUrl="src\assets\iot.png"
+          imgUrl="\assets\iot.png"
         />
         <New2CardTrack
           title="AI & ML"
           text="Simulate human intelligence and show-off various applications that make AI&ML one of the most popular domains in computer science."
-          imgUrl="src\assets\ai.png"
+          imgUrl="\assets\ai.png"
         />
       </div>
       <div className="flex justify-center items-center xl:gap-10 lg:gap-9 gap-2">
         <New2CardTrack
           title="BlockChain"
           text="Use the blockchain to create innovative solutions by bringing together several technologies here."
-          imgUrl="src\assets\blockchain.png"
+          imgUrl="\assets\blockchain.png"
         />
         <New2CardTrack
           title="Open Innovation"
           text="Freedom to build solutions to your own problems and truly show the rest your creative prowess."
-          imgUrl="src\assets\oi.png"
+          imgUrl="\assets\oi.png"
         />
       </div>
     </div>
