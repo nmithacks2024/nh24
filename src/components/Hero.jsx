@@ -32,7 +32,7 @@ const Hero = () => {
       {/* Hero Content */}
       <div
         className="flex flex-col gap-24 py-40 w-full
-       bg-[url('/heroBackgroundPattern.svg')] bg-no-repeat  bg-top bg-[length:72rem_90rem] md:bg-[length:80rem_94rem] lg:bg-[length:75rem_90rem] xl:bg-[length:100rem_90rem] 2xl:bg-[length:140rem_90rem] mt-20 sm:mt-10"
+       bg-[url('/assets/heroBackgroundPattern.svg')] bg-no-repeat  bg-top bg-[length:72rem_90rem] md:bg-[length:80rem_94rem] lg:bg-[length:75rem_90rem] xl:bg-[length:100rem_90rem] 2xl:bg-[length:140rem_90rem] mt-20 sm:mt-10"
       >
         <div className="flex flex-col gap-10 mb-5">
           <div className="flex justify-center items-center lg:px-[5.25rem] sm:px-[3rem] px-[1.2rem] sm:mt-[5rem]">
