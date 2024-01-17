@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { positions } from './constants'
+// import { positions } from './constants'
 
 
 export default function PodiumStep({ podium, winner, index }) {

@@ -25,6 +25,10 @@ export const navLinks = [
     id: "faq",
     title: "FAQ",
   },
+  {
+    id: "footer",
+    title: "Contact Us",
+  },
 ];
 
 export const socialMedia = [

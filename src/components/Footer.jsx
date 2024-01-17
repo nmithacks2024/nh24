@@ -27,10 +27,10 @@ function Footer() {
       <div className="h-fit flex flex-col gap-1 bottom-0 bg-[#101010] text-white items-center pt-5 pb-5">
         <div className="flex justify-center items-center gap-5">
           <div className="w-1/2 h-[100px] flex justify-center items-center">
-            <img src="src\assets\nmitLogo.png" alt="nmit" />
+            <img src="src/assets/nmitLogo.png" alt="nmit" />
           </div>
           <div className="scale-50 w-1/2 flex justify-center items-center h-[200px]">
-            <img src="src\assets\logo2.png" alt="nmit hacks" />
+            <img src="src/assets/logo2.png" alt="nmit hacks" />
           </div>
         </div>
 
@@ -62,9 +62,9 @@ function Footer() {
           </div>
           <div className="text-center mb-5">
             {memberName === null ? (
-              <div>Made with ❤ By NMIT Hacks </div>
+              <div>Made with 🧡 By NMIT Hacks </div>
             ) : (
-              <div> Made with ❤ with {memberName}</div>
+              <div> Made with 🧡 with {memberName}</div>
             )}
           </div>
         </div>

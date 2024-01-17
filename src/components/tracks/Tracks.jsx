@@ -16,29 +16,29 @@ function Tracks() {
         <New2CardTrack
           title="Game Dev"
           text="Create games that intrigue and bring alive a crowd with our brand new track."
-          imgUrl={game}
+          imgUrl="src\assets\game.png"
         />
         <New2CardTrack
           title="IOT"
           text="Connect several devices together and help them communicate efficiently to help the world in your own, unique way."
-          imgUrl={iot}
+          imgUrl="src\assets\iot.png"
         />
         <New2CardTrack
           title="AI & ML"
           text="Simulate human intelligence and show-off various applications that make AI&ML one of the most popular domains in computer science."
-          imgUrl={ai}
+          imgUrl="src\assets\ai.png"
         />
       </div>
       <div className="flex justify-center items-center xl:gap-10 lg:gap-9 gap-2">
         <New2CardTrack
           title="BlockChain"
           text="Use the blockchain to create innovative solutions by bringing together several technologies here."
-          imgUrl={blockchain}
+          imgUrl="src\assets\blockchain.png"
         />
         <New2CardTrack
           title="Open Innovation"
           text="Freedom to build solutions to your own problems and truly show the rest your creative prowess."
-          imgUrl={oi}
+          imgUrl="src\assets\oi.png"
         />
       </div>
     </div>
