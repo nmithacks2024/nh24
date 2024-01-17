@@ -1,14 +1,18 @@
+import Reveal from "./Reveal";
+
 const Timeline = () => {
   return (
     <body className="antialiased font-poppins bg-primary h-screen">
-      <div className="container mx-auto px-4 sm:px-8">
+      <div>
+        <Reveal>
+          <h1 className="right-0 text-[64px] font-medium leading-tight text-white">
+            Timeline
+          </h1>
+        </Reveal>
+      </div>
+      <div className="container mx-auto sm:px-8">
         <div className="py-10">
-          <div>
-            <h1 className="right-0 text-[64px] font-medium leading-tight text-white">
-              Timeline
-            </h1>
-          </div>
-          <div className="my-5 flex sm:flex-row flex-col">
+          <div className="my-5 flex sm:flex-row flex-col align-middle items-center">
             <div className="flex flex-row mb-1 sm:mb-0">
               <div className="relative">
                 <select className="h-full rounded-l border block appearance-none w-full bg-primary border-secondary text-secondary py-2 px-4 pr-8 leading-tight focus:outline-none focus:bg-primary focus:border-secondary">
@@ -68,7 +72,7 @@ const Timeline = () => {
                         Event
                       </th>
                       <th className="px-5 py-3 border border-secondary bg-primary text-left text-xs font-semibold text-white uppercase tracking-wider">
-                        {}
+                        Type
                       </th>
                       <th className="px-5 py-3 border border-secondary bg-primary text-left text-xs font-semibold text-white uppercase tracking-wider">
                         Scheduled at

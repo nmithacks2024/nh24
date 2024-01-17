@@ -3,19 +3,23 @@ import NavBar from "./NavBar";
 import CountDown from "./CountDown";
 import AboutUs from "./AboutUs";
 import Timeline from "./Timeline";
-import Tracks from "./Tracks";
-import Prizes from "./Prizes";
 import Sponsors from "./Sponsors";
+import FAQ from "./FAQ";
 import Footer from "./Footer";
+import MouseTrail from "./MouseTrail";
+import Tracks from "./tracks/Tracks";
+import PrizeSection from "./PrizeSection/PrizeSection";
 
 export {
   Hero,
   NavBar,
   CountDown,
   AboutUs,
+  MouseTrail,
   Timeline,
   Tracks,
-  Prizes,
+  PrizeSection,
   Sponsors,
+  FAQ,
   Footer,
 };

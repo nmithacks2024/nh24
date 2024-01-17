@@ -14,6 +14,10 @@ export const navLinks = [
     title: "Prizes",
   },
   {
+    id: "timeline",
+    title: "Timeline",
+  },
+  {
     id: "sponsors",
     title: "Sponsors",
   },

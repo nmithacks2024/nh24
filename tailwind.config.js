@@ -9,10 +9,12 @@ export default {
         secondary: "#F84611",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
+        neutral: "#ffffff",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      boxShadow: ["hover"],
     },
     screens: {
       xs: "480px",
@@ -23,5 +25,5 @@ export default {
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
