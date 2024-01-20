@@ -2,7 +2,7 @@ import Reveal from "./Reveal";
 
 const Timeline = () => {
   return (
-    <body className="antialiased font-poppins bg-primary h-screen">
+    <body className="antialiased font-sans bg-primary py-[90px]">
       <div>
         <Reveal>
           <h1 className="right-0 text-[64px] font-medium leading-tight text-white">
@@ -10,8 +10,8 @@ const Timeline = () => {
           </h1>
         </Reveal>
       </div>
-      <div className="container mx-auto sm:px-8">
-        <div className="py-10">
+      <div className=" mx-auto sm:px-8">
+        <div className="lg:py-10">
           <div className="my-5 flex sm:flex-row flex-col align-middle items-center">
             <div className="flex flex-row mb-1 sm:mb-0">
               <div className="relative">

@@ -8,8 +8,8 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="mx-auto flex py-6 justify-between items-center navbar bg-primary rounded-full z-20 w-[90%]">
-      <img src={logo} alt="hoobank" className="w-[50px] h-[50px] ml-5" />
+    <nav className="mx-auto flex pt-6 pb-3 justify-between items-center navbar rounded-full z-20 w-[90%] bg-primary">
+      <img src={logo} alt="nmithacks" className="w-[50px] h-[50px] ml-5" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -18,7 +18,7 @@ const Navbar = () => {
             className={`font-poppins font-normal cursor-pointer text-[16px] ${
               active === nav.title ? "text-secondary" : "text-white"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
-            onClick={() => setActive(nav.title)}
+            // onClick={() => setActive(nav.title)}
           >
             <a href={`#${nav.id}`} className="hover:text-secondary">
               {nav.title}
@@ -47,7 +47,7 @@ const Navbar = () => {
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
                   active === nav.title ? "text-white" : "text-dimWhite"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
-                onClick={() => setActive(nav.title)}
+                // onClick={() => setActive(nav.title)}
               >
                 <a href={`#${nav.id}`} className="hover:text-secondary">
                   {nav.title}

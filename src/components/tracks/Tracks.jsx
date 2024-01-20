@@ -1,44 +1,53 @@
-// import { useState, useEffect } from 'react'
 import styled from "styled-components";
 import New2CardTrack from "./TracksCard";
 import Reveal from "../Reveal";
-import { ai, blockchain, game, iot, oi } from "../../../public/assets";
-
 function Tracks() {
   return (
-    <div className="flex flex-col gap-10 pt-5 pb-[100px] bg-[#101010]">
-      <Reveal>
-        <h1 className="right-0 text-[64px] font-medium leading-tight text-white">
-          Tracks
-        </h1>
-      </Reveal>
-      <div className="flex xl:flex-row lg:flex-row md:flex-row sm:flex-row justify-center items-center xl:gap-10 lg:gap-3 gap-4">
+    <div className="flex flex-col gap-10 bg-[#101010] py-[90px] font-sans">
+      <div>
+        <Reveal>
+          <h1 className="right-0 text-[64px] font-medium leading-tight text-white">
+            Tracks
+          </h1>
+        </Reveal>
+        <Reveal>
+          <h2 className="text-white justify-center items-center font-brand-medium text-[1.2rem] md:text-[1.5rem] lg:text-[2rem] leading-normal lg:leading-[38px] text-center">
+            This edition, <span className="text-secondary">sparks</span> will
+            fly... We bring you the{" "}
+            <span className="text-secondary font-brand-semiBold">
+              hottest tracks
+            </span>
+            !
+          </h2>
+        </Reveal>
+      </div>
+      <div className="flex xl:flex-row lg:flex-row md:flex-row sm:flex-row justify-center items-center xl:gap-10 lg:gap-3 gap-2">
         <New2CardTrack
           title="Game Dev"
-          text="Create games that intrigue and bring alive a crowd with our brand new track."
-          imgUrl="\assets\game.png"
+          text="Bring virtual worlds to life, crafting captivating and interactive gaming experiences."
+          imgUrl="./assets/game.png"
         />
         <New2CardTrack
           title="IOT"
-          text="Connect several devices together and help them communicate efficiently to help the world in your own, unique way."
-          imgUrl="\assets\iot.png"
+          text="Witness the convergence of software and hardware to implement solutions that leverage the power of IoT."
+          imgUrl="./assets/iot.png"
         />
         <New2CardTrack
           title="AI & ML"
-          text="Simulate human intelligence and show-off various applications that make AI&ML one of the most popular domains in computer science."
-          imgUrl="\assets\ai.png"
+          text="Push the boundaries of intelligent systems in the cutting-edge world of AI & ML. "
+          imgUrl="./assets/ai.png"
         />
       </div>
       <div className="flex justify-center items-center xl:gap-10 lg:gap-9 gap-2">
         <New2CardTrack
           title="BlockChain"
-          text="Use the blockchain to create innovative solutions by bringing together several technologies here."
-          imgUrl="\assets\blockchain.png"
+          text="Create secure, transparent, and transformative applications that harness the power of blockchain networks."
+          imgUrl="./assets/blockchain.png"
         />
         <New2CardTrack
           title="Open Innovation"
-          text="Freedom to build solutions to your own problems and truly show the rest your creative prowess."
-          imgUrl="\assets\oi.png"
+          text="Embrace the freedom to explore any tech-frontier, fostering groundbreaking ideas that transcend traditional boundaries."
+          imgUrl="./assets/oi.png"
         />
       </div>
     </div>

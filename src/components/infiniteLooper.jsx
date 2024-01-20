@@ -1,11 +1,11 @@
-import { logo } from "../../public/assets";
+// import { logo } from "../../public/assets";
 import "./infiniteLooper.css";
 
 export default function InfiniteLooper(props) {
-  const images = [];
-  for (let i = 1; i < 20; i++) {
-    images.push(<img src={logo} />);
-  }
+  const images = props.memberArray;
+  // for (let i = 1; i < 20; i++) {
+  //   images.push(<img src={logo} />);
+  // }
   return (
     <div className=" flex items-center justify-center">
       {/* 1. */}
@@ -20,7 +20,7 @@ export default function InfiniteLooper(props) {
             return (
               <div
                 onMouseOver={() => {
-                  props.getMemberName(i);
+                  props.getMemberName(img);
                 }}
                 onMouseOut={() => {
                   props.getMemberName(null);
@@ -33,7 +33,28 @@ export default function InfiniteLooper(props) {
                                     : "brightness-50 transition ease-out delay-150"
                                 }`}
               >
-                {img}
+                {img.image}
+              </div>
+            );
+          })}
+          {images.map((img, i) => {
+            return (
+              <div
+                onMouseOver={() => {
+                  props.getMemberName(img);
+                }}
+                onMouseOut={() => {
+                  props.getMemberName(null);
+                }}
+                key={i}
+                className={`image flex justify-center items-start w-[5rem]
+                                ${
+                                  props.memberName === i
+                                    ? "brightness-200 scale-x-110 transition ease-out delay-150"
+                                    : "brightness-50 transition ease-out delay-150"
+                                }`}
+              >
+                {img.image}
               </div>
             );
           })}

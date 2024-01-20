@@ -6,20 +6,24 @@ import Timeline from "./Timeline";
 import Sponsors from "./Sponsors";
 import FAQ from "./FAQ";
 import Footer from "./Footer";
-import MouseTrail from "./MouseTrail";
+import MouseParticleTrail from "./FlameComponent";
 import Tracks from "./tracks/Tracks";
 import PrizeSection from "./PrizeSection/PrizeSection";
+import FlameComponent from "./FlameComponent";
+import MouseTrail2 from "./MouseTrail2";
 
 export {
   Hero,
   NavBar,
   CountDown,
   AboutUs,
-  MouseTrail,
+  MouseParticleTrail,
   Timeline,
   Tracks,
   PrizeSection,
   Sponsors,
   FAQ,
   Footer,
+  FlameComponent,
+  MouseTrail2,
 };

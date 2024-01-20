@@ -28,7 +28,7 @@ export default function WinnerCard({ winners, winner, index }) {
       >
         <img src={winner.avatar} alt="" className="shadow-sm w-11 h-11 mr-3" />
         <Reveal>
-          <div className="font-bold text-white text-3xl">
+          <div className="font-bold text-white lg:text-3xl md:text-2xl">
             {positions[winner.place]}
           </div>
         </Reveal>
@@ -37,7 +37,7 @@ export default function WinnerCard({ winners, winner, index }) {
             {/* <p className="text-gray-900 leading-none font-semibold">
                         {winner.name || 'No name'}
                     </p> */}
-            <p className="text-white w-fit font-bold text-2xl">
+            <p className="text-white w-fit font-bold lg:text-3xl md:text-2xl">
               {prizes[winner.place]}
             </p>
           </div>

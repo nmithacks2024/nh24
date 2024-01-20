@@ -7,7 +7,7 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import heroBackgroundPattern from "./heroBackgroundPattern.svg";
+import heroBG from "./heroBG.svg";
 import next from "./next.svg";
 import bg from "./bg.png";
 import ai from "./ai.png";
@@ -26,7 +26,7 @@ export {
   instagram,
   linkedin,
   twitter,
-  heroBackgroundPattern,
+  heroBG,
   next,
   bg,
   ai,

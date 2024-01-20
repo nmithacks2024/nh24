@@ -7,8 +7,89 @@ import { facebook, instagram, linkedin, twitter } from "../../public/assets";
 function Footer() {
   const [memberName, setMemberName] = React.useState(null);
   const [onHover, setHover] = React.useState(false);
+  const memberArray = [
+    {
+      name: "Amey",
+      position: "Lead- Operation Team",
+      emoji: "👨‍🎓",
+      image: <img src={"./assets/logo.png"} />,
+    },
+    {
+      name: "Ankith",
+      position: "Lead- Sponsorship Team",
+      emoji: "🍿",
+      image: <img src={"./assets/logo.png"} />,
+    },
+    {
+      name: "Arnav",
+      position: "Core Member- Tech Team",
+      emoji: "🍀",
+      image: <img src={"./assets/logo.png"} />,
+    },
+    {
+      name: "Manash",
+      position: "Lead- Tech Team",
+      emoji: "💻",
+      image: <img src={"./assets/logo.png"} />,
+    },
+    {
+      name: "Huvishka",
+      position: "Lead- Social Media Team",
+      emoji: "✨️",
+      image: <img src={"./assets/logo.png"} />,
+    },
+    {
+      name: "Sai Uttej",
+      position: "Core Member- Sponsorship Team",
+      emoji: "🕺",
+      image: <img src={"./assets/logo.png"} />,
+    },
+    {
+      name: "Karthik",
+      position: "Lead- Devfolio Team",
+      emoji: "🔥",
+      image: <img src={"./assets/logo.png"} />,
+    },
+    {
+      name: "Lovia",
+      position: "Core Member- Design Team",
+      emoji: "💅",
+      image: <img src={"./assets/logo.png"} />,
+    },
+    {
+      name: "Sai Shravan",
+      position: "Core Member- Design Team",
+      emoji: "🔟🐐⚽️",
+      image: <img src={"./assets/logo.png"} />,
+    },
+    {
+      name: "Pramod",
+      position: "Core Member- Sponsorship Team",
+      emoji: "💦",
+      image: <img src={"./assets/logo.png"} />,
+    },
+    {
+      name: "Pranay ",
+      position: "Lead- Content Team ",
+      emoji: "🗿",
+      image: <img src={"./assets/logo.png"} />,
+    },
+    {
+      name: "Yuvika ",
+      position: "Core Member- Content Team",
+      emoji: "🦋",
+      image: <img src={"./assets/logo.png"} />,
+    },
+    {
+      name: "Rashi",
+      position: "Lead- Design Team ",
+      emoji: "😪",
+      image: <img src={"./assets/logo.png"} />,
+    },
+  ];
 
   const getMemberName = (e) => {
+    console.log(e);
     if (e) {
       setHover(true);
     } else {
@@ -18,7 +99,7 @@ function Footer() {
   };
 
   return (
-    <div className="">
+    <div className="pt-[90px]">
       <Reveal>
         <h1 className="right-0 text-[64px] font-medium leading-tight text-white">
           Contact Us
@@ -60,11 +141,37 @@ function Footer() {
               </a>
             </div>
           </div>
+          <div className="text-white rounded-full border px-10 py-5 font-bold text-xl border-1 border-secondary">
+            <a href="https://devfolio.co/code-of-conduct">
+              <button>Code of Conduct</button>
+            </a>
+          </div>
+          {/* <div className="text-white flex xl:flex-row lg:flex-row md:flex-row flex-col">
+            <p className="text-center">You can Email us at:</p>
+            <a href="mailto: hackathon@nmit.ac.in" className="px-2 font-bold">
+              hackathon@nmit.ac.in
+            </a>
+          </div> */}
+          <div className="text-white flex xl:flex-row lg:flex-row flex-col">
+            <div className="text-center">
+              For event-related queries, contact:
+            </div>
+            <a
+              href="mailto: hackathon@nmit.ac.in"
+              className="px-2 font-bold text-center"
+            >
+              hackathon@nmit.ac.in
+            </a>
+          </div>
           <div className="text-center mb-5">
             {memberName === null ? (
               <div>Made with 🧡 By NMIT Hacks </div>
             ) : (
-              <div> Made with 🧡 with {memberName}</div>
+              <div className="flex xl:flex-row lg:flex-row flex-col gap-3">
+                Made with <p>{memberName.emoji}</p> <p>with</p>{" "}
+                <p>{memberName.name},</p>
+                <p>{memberName.position}</p>
+              </div>
             )}
           </div>
         </div>
@@ -75,6 +182,7 @@ function Footer() {
             memberName={memberName}
             onHover={onHover}
             getMemberName={getMemberName}
+            memberArray={memberArray}
           />
         </div>
       </div>

@@ -13,10 +13,12 @@ export default {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        sans: ["Helvetica", "Arial", "sans-serif"],
       },
       boxShadow: ["hover"],
     },
     screens: {
+      xxs: "75px",
       xs: "480px",
       ss: "620px",
       sm: "768px",

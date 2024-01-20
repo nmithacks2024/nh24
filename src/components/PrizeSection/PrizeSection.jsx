@@ -20,7 +20,7 @@ function PrizeSection() {
   return (
     <div ref={ref} className="relative">
       <LayoutShell>
-        <div className=" flex xl:flex-row lg:flex-row md:flex-row flex-col justify-between items-center md:gap-0 gap-10 min-w-[100%]">
+        <div className=" flex xl:flex-row lg:flex-row md:flex-row flex-col justify-between items-center md:gap-0 gap-10 min-w-[100%] ">
           <div className="xl:min-w-[50%] lg:min-w-[50%] md:min-w-[50%] min-w-[100%] flex justify-center items-center">
             <Reveal2>
               <Podium winners={winners} />
