@@ -28,22 +28,13 @@ const AboutUs = () => {
             <img src="\assets\photoGallery3.jpg" className="rounded-box" />
           </div>
           <div className="carousel-item">
-            <img
-              src="public\assets\photoGallery4.jpg"
-              className="rounded-box"
-            />
+            <img src="\assets\photoGallery4.jpg" className="rounded-box" />
           </div>
           <div className="carousel-item">
-            <img
-              src="public/assets/photoGallery5.jpg"
-              className="rounded-box"
-            />
+            <img src="/assets/photoGallery5.jpg" className="rounded-box" />
           </div>
           <div className="carousel-item">
-            <img
-              src="public/assets/photoGallery6.jpg"
-              className="rounded-box"
-            />
+            <img src="/assets/photoGallery6.jpg" className="rounded-box" />
           </div>
           {/* <div className="carousel-item">
             <img
