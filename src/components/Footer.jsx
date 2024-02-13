@@ -3,7 +3,9 @@ import InfiniteLooper from "./infiniteLooper";
 import "./infiniteLooper.css";
 import Reveal from "./Reveal";
 import { facebook, instagram, linkedin, twitter } from "../../public/assets";
-
+import {
+  Arnav, Ashwin, Huvishka, Karthik, LoviaEB, Nitin, Pramod, Pranay, Rachit, Rashi_Himatsingka, Rohan_G, Rohan_N, Sai_uttej, Shravan, Shreya, Smitha, vikitha, Yuvika,
+} from "D:/v++/nh24/public/assets/index.js";
 function Footer() {
   const [memberName, setMemberName] = React.useState(null);
   const [onHover, setHover] = React.useState(false);
@@ -12,7 +14,7 @@ function Footer() {
       name: "Amey",
       position: "Lead- Operation Team",
       emoji: "👨‍🎓",
-      image: <img src={"./assets/logo.png"} />,
+      image: Arnav,
     },
     {
       name: "Ankith",
@@ -21,70 +23,70 @@ function Footer() {
       image: <img src={"./assets/logo.png"} />,
     },
     {
-      name: "Arnav",
+      name: "Rachit",
       position: "Core Member- Tech Team",
-      emoji: "🍀",
-      image: <img src={"./assets/logo.png"} />,
+      emoji: "💻",
+      image: Rachit,
     },
     {
-      name: "Manash",
+      name: "Arnav",
       position: "Lead- Tech Team",
-      emoji: "💻",
-      image: <img src={"./assets/logo.png"} />,
+      emoji: "🍀",
+      image: Arnav,
     },
     {
       name: "Huvishka",
       position: "Lead- Social Media Team",
       emoji: "✨️",
-      image: <img src={"./assets/logo.png"} />,
+      image: Huvishka,
     },
     {
       name: "Sai Uttej",
       position: "Core Member- Sponsorship Team",
       emoji: "🕺",
-      image: <img src={"./assets/logo.png"} />,
+      image: Sai_uttej,
     },
     {
       name: "Karthik",
       position: "Lead- Devfolio Team",
       emoji: "🔥",
-      image: <img src={"./assets/logo.png"} />,
+      image: Karthik,
     },
     {
       name: "Lovia",
       position: "Core Member- Design Team",
       emoji: "💅",
-      image: <img src={"./assets/logo.png"} />,
+      image: LoviaEB,
     },
     {
       name: "Sai Shravan",
       position: "Core Member- Design Team",
       emoji: "🔟🐐⚽️",
-      image: <img src={"./assets/logo.png"} />,
+      image: Shravan,
     },
     {
       name: "Pramod",
       position: "Core Member- Sponsorship Team",
       emoji: "💦",
-      image: <img src={"./assets/logo.png"} />,
+      image: Pramod,
     },
     {
       name: "Pranay ",
       position: "Lead- Content Team ",
       emoji: "🗿",
-      image: <img src={"./assets/logo.png"} />,
+      image: Pranay,
     },
     {
       name: "Yuvika ",
       position: "Core Member- Content Team",
       emoji: "🦋",
-      image: <img src={"./assets/logo.png"} />,
+      image: Yuvika,
     },
     {
       name: "Rashi",
       position: "Lead- Design Team ",
       emoji: "😪",
-      image: <img src={"./assets/logo.png"} />,
+      image: Rashi_Himatsingka,
     },
   ];
 

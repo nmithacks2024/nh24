@@ -15,6 +15,30 @@ import game from "./game.png";
 import oi from "./oi.png";
 import iot from "./iot.png";
 import blockchain from "./blockchain.png";
+import EthIndia from './ethindia-light.svg';
+import Devfolio from './Devfolio_Logo.png';
+import Polygon from './Polygon_Logo.svg';
+import Nmit_Nitte_Logo from './Nmit_2024_logo.png';
+import Arnav from './svg/Arnav.svg'
+import Ashwin from './svg/Ashwin1.svg'
+import Huvishka from './svg/Huvishka.svg'
+import Karthik from './svg/Karthik.svg'
+import LoviaEB from './svg/LoviaEB.svg'
+import Nitin from './svg/Nitin.svg'
+import Pramod from './svg/Pramod.svg'
+import Pranay from './svg/Pranay.svg'
+import Rachit from './svg/Rachit.svg'
+import Rashi_Himatsingka from './svg/Rashi_Himatsingka.svg'
+import Rohan_G from './svg/Rohan_G.svg'
+import Rohan_N from './svg/Rohan_N.svg'
+import Sai_uttej from './svg/Sai_uttej.svg'
+import Shravan from './svg/Shravan.svg'
+import Shreya from './svg/Shreya.svg'
+import Smitha from './svg/Smitha.svg'
+import vikitha from './svg/vikitha.svg'
+import Yuvika from 'D:/v++/nh24/public/assets/svg/Yuvika.svg'
+
+
 
 export {
   logo,
@@ -34,4 +58,26 @@ export {
   iot,
   game,
   blockchain,
+  Devfolio,
+  Polygon,
+  Nmit_Nitte_Logo,
+  EthIndia,
+  Arnav,
+  Ashwin,
+  Huvishka,
+  Karthik,
+  LoviaEB,
+  Nitin,
+  Pramod,
+  Pranay,
+  Rachit,
+  Rashi_Himatsingka,
+  Rohan_G,
+  Rohan_N,
+  Sai_uttej,
+  Shravan,
+  Shreya,
+  Smitha,
+  vikitha,
+  Yuvika,
 };

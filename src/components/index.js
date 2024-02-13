@@ -12,6 +12,8 @@ import PrizeSection from "./PrizeSection/PrizeSection";
 import FlameComponent from "./FlameComponent";
 import MouseTrail2 from "./MouseTrail2";
 
+
+
 export {
   Hero,
   NavBar,

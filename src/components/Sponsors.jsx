@@ -1,5 +1,5 @@
 import Reveal from "./Reveal";
-
+import { SponsorIcon } from "./index2";
 const Sponsors = () => {
   return (
     <div className="py-[90px]">
@@ -8,6 +8,27 @@ const Sponsors = () => {
           Sponsors
         </h1>
       </Reveal>
+      <div className='py-10 flex flex-col justify-center items-center text-lg '>
+    {}
+
+    <div className='mt-16 flex p-12 '>
+      {SponsorIcon.map((SponsorIcon) => (
+        <div className='block-container rounded-xl hover:bg-secondary  hover:cursor-pointer border-bg-slate-20 p-10 ' key={SponsorIcon.name}>
+          
+          <div className='btn-front flex justify-center items-center '>
+          <a href={SponsorIcon.URL} target="_blank">
+            <img
+              src={SponsorIcon.imageUrl}
+              alt={SponsorIcon.name}
+              
+              className='w-1/1 h-1/1 object-contain '
+            />
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
       <div className="flex justify-center items-center">
         <div className="relative max-w-md w-full p-8 bg-white bg-opacity-20 rounded-lg backdrop-blur-md shadow-lg transition duration-300 ease-in-out transform hover:shadow-xl mt-20 xs:mt-[8rem]">
           <Reveal width="fit-content">
