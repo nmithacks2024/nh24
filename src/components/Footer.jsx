@@ -5,7 +5,7 @@ import Reveal from "./Reveal";
 import { facebook, instagram, linkedin, twitter } from "../../public/assets";
 import {
   Arnav, Ashwin, Huvishka, Karthik, LoviaEB, Nitin, Pramod, Pranay, Rachit, Rashi_Himatsingka, Rohan_G, Rohan_N, Sai_uttej, Shravan, Shreya, Smitha, vikitha, Yuvika,
-} from "D:/v++/nh24/public/assets/index.js";
+} from "../../public/assets/index.js";
 function Footer() {
   const [memberName, setMemberName] = React.useState(null);
   const [onHover, setHover] = React.useState(false);
@@ -14,79 +14,79 @@ function Footer() {
       name: "Amey",
       position: "Lead- Operation Team",
       emoji: "👨‍🎓",
-      image: Arnav,
+      image: <img src={Arnav} alt="Amey" />,
     },
     {
       name: "Ankith",
       position: "Lead- Sponsorship Team",
       emoji: "🍿",
-      image: <img src={"./assets/logo.png"} />,
+      image: <img src="../../public/assets/club_members/Rachit.jpg" />,
     },
     {
       name: "Rachit",
       position: "Core Member- Tech Team",
-      emoji: "💻",
-      image: Rachit,
+      emoji: "🎯",
+      image: <img src="../../public/assets/club_members/Arnav.jpeg" />,
     },
     {
       name: "Arnav",
       position: "Lead- Tech Team",
       emoji: "🍀",
-      image: Arnav,
+      image: <img src={Arnav} />,
     },
     {
       name: "Huvishka",
       position: "Lead- Social Media Team",
       emoji: "✨️",
-      image: Huvishka,
+      image: <img src={Huvishka} />,
     },
     {
       name: "Sai Uttej",
       position: "Core Member- Sponsorship Team",
       emoji: "🕺",
-      image: Sai_uttej,
+      image: <img src={Sai_uttej} />,
     },
     {
       name: "Karthik",
       position: "Lead- Devfolio Team",
       emoji: "🔥",
-      image: Karthik,
+      image: <img src={Karthik} />,
     },
     {
       name: "Lovia",
       position: "Core Member- Design Team",
       emoji: "💅",
-      image: LoviaEB,
+      image: <img src={LoviaEB} />,
     },
     {
       name: "Sai Shravan",
       position: "Core Member- Design Team",
       emoji: "🔟🐐⚽️",
-      image: Shravan,
+      image: <img src={Shravan} />,
     },
     {
       name: "Pramod",
       position: "Core Member- Sponsorship Team",
       emoji: "💦",
-      image: Pramod,
+      image: <img src={Pramod} />,
     },
     {
       name: "Pranay ",
       position: "Lead- Content Team ",
       emoji: "🗿",
-      image: Pranay,
+      image: <img src={Pranay} />,
     },
     {
       name: "Yuvika ",
       position: "Core Member- Content Team",
       emoji: "🦋",
-      image: Yuvika,
+      image: <img src={Yuvika} />,
     },
     {
       name: "Rashi",
       position: "Lead- Design Team ",
       emoji: "😪",
-      image: Rashi_Himatsingka,
+      image: <img src={Rashi_Himatsingka} />,
     },
   ];
 
@@ -107,7 +107,8 @@ function Footer() {
           Contact Us
         </h1>
       </Reveal>
-      <div className="h-fit flex flex-col gap-1 bottom-0 bg-[#101010] text-white items-center pt-5 pb-5">
+      {/* bg-[#101010] */}
+      <div className="h-fit flex flex-col gap-1 bottom-0 bg-[#101010]  text-white items-center pt-5 pb-5">
         <div className="flex justify-center items-center gap-5">
           <div className="w-1/2 h-[100px] flex justify-center items-center">
             <img src="/assets/nmitLogo.png" alt="nmit" />
@@ -143,6 +144,7 @@ function Footer() {
               </a>
             </div>
           </div>
+          {console.log(Rachit)}
           <div className="text-white rounded-full border px-10 py-5 font-bold text-xl border-1 border-secondary">
             <a href="https://devfolio.co/code-of-conduct">
               <button>Code of Conduct</button>
@@ -170,16 +172,22 @@ function Footer() {
               <div>Made with 🧡 By NMIT Hacks </div>
             ) : (
               <div className="flex xl:flex-row lg:flex-row flex-col gap-3">
-                Made with <p>{memberName.emoji}</p> <p>with</p>{" "}
+                Made with <p>{memberName.emoji}</p> <p>by</p>{" "}
                 <p>{memberName.name},</p>
                 <p>{memberName.position}</p>
               </div>
             )}
           </div>
         </div>
-        {/* <div className="text-3xl font-bold">Team</div>
-        <div className="text-2xl font-bold h-10">{memberName}</div> */}
-        <div className="looperContainer w-[70%] mx-auto h-[80px]">
+        {/* <div className="looperContainer w-[70%] mx-auto h-[80px]">
+          <InfiniteLooper
+            memberName={memberName}
+            onHover={onHover}
+            getMemberName={getMemberName}
+            memberArray={memberArray}
+          />
+        </div> */}
+        <div class="w-[70%] mx-auto">
           <InfiniteLooper
             memberName={memberName}
             onHover={onHover}

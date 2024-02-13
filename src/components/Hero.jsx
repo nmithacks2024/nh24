@@ -7,7 +7,7 @@ import AboutUs from "./AboutUs";
 const Hero = () => {
   const sentence = "National-Level 48-Hour Hackathon".split("");
   const sentence1 = " by the Dept. of CSE, NMIT".split("");
-  const sentence2 = "17th - 19th May, 2024".split("");
+  const sentence2 = "24th - 26th May, 2024".split("");
   const sentence3 = "Nitte Meenakshi Institute of Technology, Bengaluru".split(
     ""
   );

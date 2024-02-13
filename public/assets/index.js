@@ -22,6 +22,7 @@ import Nmit_Nitte_Logo from './Nmit_2024_logo.png';
 import Arnav from './svg/Arnav.svg'
 import Ashwin from './svg/Ashwin1.svg'
 import Huvishka from './svg/Huvishka.svg'
+// import Ankith from './svg/Ankith.svg'
 import Karthik from './svg/Karthik.svg'
 import LoviaEB from './svg/LoviaEB.svg'
 import Nitin from './svg/Nitin.svg'
@@ -36,7 +37,7 @@ import Shravan from './svg/Shravan.svg'
 import Shreya from './svg/Shreya.svg'
 import Smitha from './svg/Smitha.svg'
 import vikitha from './svg/vikitha.svg'
-import Yuvika from 'D:/v++/nh24/public/assets/svg/Yuvika.svg'
+import Yuvika from './svg/Yuvika.svg'
 
 
 

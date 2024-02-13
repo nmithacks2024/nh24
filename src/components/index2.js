@@ -2,7 +2,7 @@ import {
     Devfolio,
     Polygon,
     EthIndia,
-} from "D:/v++/nh24/public/assets/index.js";
+} from "../../public/assets/index.js";
 
 
 

@@ -2,6 +2,7 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  background-color: white;
 }
 
 .socialIcons {
@@ -17,19 +18,20 @@
   cursor: pointer;
 }
 
-@keyframes scroll {
-  0% {
-    left: 0%;
+@keyframes slide {
+  from {
+    transform: translateX(0);
   }
 
-  100% {
-    left: -100%;
+  to {
+    transform: translateX(-100%);
   }
 }
 
 .animate {
-  animation: scroll 15s linear infinite;
+  animation: slide 15s linear infinite;
 }
+
 
 @media (max-width: 930px) {
   .image img {
