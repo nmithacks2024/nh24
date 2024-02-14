@@ -12,7 +12,7 @@ const Hero = () => {
     ""
   );
   return (
-    <section className="mt-60 md:mt-[23rem]  flex flex-col items-center justify-center w-full tracking-wide realtive">
+    <section className="mt-60 md:mt-[23rem]  flex flex-col items-center justify-center w-full tracking-wide realtive"  id="/">
       {/* Hero Image */}
       <div className="flex-col mt-0 absolute top-36 py-10 px-5 h-[clac(screen-100vh)] flex items-center justify-center">
         <img className=" w-full max-w-2xl" src="/assets/LOGOV8.svg" alt="" />

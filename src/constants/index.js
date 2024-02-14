@@ -2,6 +2,10 @@ import { facebook, instagram, linkedin, twitter } from "../../public/assets";
 
 export const navLinks = [
   {
+    id: "/",
+    title: "Home",
+  },
+  {
     id: "aboutus",
     title: "About Us",
   },

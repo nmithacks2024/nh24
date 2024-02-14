@@ -46,7 +46,8 @@ function Tracks() {
         />
         <New2CardTrack
           title="Open Innovation"
-          text="Embrace the freedom to explore any tech-frontier, fostering groundbreaking ideas that transcend traditional boundaries."
+          text="
+          Embrace the freedom to explore tech frontiers, fostering ideas that break traditional boundaries."
           imgUrl="./assets/oi.png"
         />
       </div>

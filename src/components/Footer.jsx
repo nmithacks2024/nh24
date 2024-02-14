@@ -229,7 +229,7 @@ function Footer() {
             )}
           </div>
         </div>
-        <div class="w-[90%] mx-auto">
+        <div className="w-[90%] mx-auto">
           <InfiniteLooper
             memberName={memberName}
             onHover={onHover}
