@@ -1,5 +1,7 @@
 import Reveal from "./Reveal";
 import { SponsorIcon } from "./index2";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const Sponsors = () => {
   const onButtonClick = () => {
         const pdfUrl = "./nh24_brochure.pdf";
@@ -26,7 +28,7 @@ const Sponsors = () => {
           
           <div className='btn-front justify-center items-center '>
           <a href={SponsorIcon.URL} target="_blank">
-            <img
+            <LazyLoadImage
               src={SponsorIcon.imageUrl}
               alt={SponsorIcon.name}
               
