@@ -3,3 +3,11 @@
     background-color: #101010;
     color:white;
 }
+
+/* // newly added */
+
+@media (max-width:350px) {
+    .winnerslist {
+        flex-direction: column;
+    }
+}

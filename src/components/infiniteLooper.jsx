@@ -20,8 +20,8 @@ export default function InfiniteLooper(props) {
               key={i}
               className={`image flex justify-center w-[5rem]
               ${props.memberName ? props.memberName.name === img.name
-                  ? "brightness-100 transition ease-out delay-150"
-                  : "brightness-50 transition ease-out delay-150" : "brightness-50"
+                  ? " brightness-100 transition ease-out delay-150"
+                  : "brightness-50 grayscale transition ease-out delay-150" : "brightness-50 grayscale"
                 }`}
             >
               {img.image}
@@ -48,7 +48,7 @@ export default function InfiniteLooper(props) {
               className={`image flex justify-center w-[5rem]
                                 ${props.memberName ? props.memberName.name === img.name
                   ? "brightness-100 transition ease-out delay-150"
-                  : "brightness-50 transition ease-out delay-150" : "brightness-50"
+                  : "brightness-50 grayscale transition ease-out delay-150" : "brightness-50 grayscale"
                 }`}
             >
               {img.image}

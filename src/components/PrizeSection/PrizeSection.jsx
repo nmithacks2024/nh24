@@ -20,13 +20,16 @@ function PrizeSection() {
   return (
     <div ref={ref} className="relative">
       <LayoutShell>
-        <div className=" flex xl:flex-row lg:flex-row md:flex-row flex-col justify-between items-center md:gap-0 gap-10 min-w-[100%] ">
-          <div className="xl:min-w-[50%] lg:min-w-[50%] md:min-w-[50%] min-w-[100%] flex justify-center items-center">
+        {/* // flex xl:flex-row lg:flex-row md:flex-row flex-col justify-between items-center md:gap-0 gap-10 min-w-[100%] */}
+        <div className="flex xl:flex-row lg:flex-row md:flex-row flex-col justify-between items-center md:gap-0 gap-10 min-w-[100%]">
+          {/* // xl:min-w-[50%] lg:min-w-[50%] md:min-w-[50%] min-w-[100%] flex justify-center items-center */}
+          <div className="h-[100%] xl:min-w-[50%] lg:min-w-[50%] md:min-w-[50%] min-w-[100%] flex justify-center items-center">
             <Reveal2>
               <Podium winners={winners} />
             </Reveal2>
           </div>
-          <div className="xl:min-w-[50%] lg:min-w-[50%] md:min-w-[50%] min-w-[100%] flex justify-center items-center">
+          {/* //xl:min-w-[50%] lg:min-w-[50%] md:min-w-[50%] min-w-[100%] flex justify-center items-center */}
+          <div className="xl:min-w-[50vw] lg:min-w-[50vw] md:min-w-[50vw] min-w-[100vw] flex justify-center items-center">
             <Reveal2>
               <WinnersList winners={winners} />
             </Reveal2>

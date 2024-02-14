@@ -4,7 +4,7 @@ import "./infiniteLooper.css";
 import Reveal from "./Reveal";
 import { facebook, instagram, linkedin, twitter } from "../../public/assets";
 import {
-  Arnav, Ashwin, Huvishka, Karthik, LoviaEB, Nitin, Pramod, Pranay, Rachit, Rashi_Himatsingka, Rohan_G, Rohan_N, Sai_uttej, Shravan, Shreya, Smitha, vikitha, Yuvika,
+  Amey, Ankith__, Arnav, Ashwin, Huvishka, Karthik, LoviaEB, Nitin, Pramod, Pranay, Rachit, Rashi_Himatsingka, Rohan_G, Rohan_N, Sai_uttej, Shravan, Shravan_, Shreya, Smitha, vikitha, Yuvika,
 } from "../../public/assets/index.js";
 function Footer() {
   const [memberName, setMemberName] = React.useState(null);
@@ -12,82 +12,130 @@ function Footer() {
   const memberArray = [
     {
       name: "Amey",
-      position: "Lead- Operation Team",
+      position: "Lead - Operation Team",
       emoji: "👨‍🎓",
-      image: <img src={Arnav} alt="Amey" />,
+      image: <img src={Amey} alt="Amey" />,
     },
     {
       name: "Ankith",
-      position: "Lead- Sponsorship Team",
+      position: "Lead - Sponsorship Team",
       emoji: "🍿",
-      image: <img src="../../public/assets/club_members/Rachit.jpg" />,
+      image: <img src={Ankith__} />,
     },
     {
       name: "Rachit",
-      position: "Core Member- Tech Team",
+      position: "Core Member - Tech Team",
       emoji: "🎯",
-      image: <img src="../../public/assets/club_members/Arnav.jpeg" />,
+      image: <img src={Rachit} />,
     },
     {
       name: "Arnav",
-      position: "Lead- Tech Team",
+      position: "Lead - Tech Team",
       emoji: "🍀",
       image: <img src={Arnav} />,
     },
     {
       name: "Huvishka",
-      position: "Lead- Social Media Team",
+      position: "Lead - Social Media Team",
       emoji: "✨️",
       image: <img src={Huvishka} />,
     },
     {
       name: "Sai Uttej",
-      position: "Core Member- Sponsorship Team",
+      position: "Core Member - Sponsorship Team",
       emoji: "🕺",
       image: <img src={Sai_uttej} />,
     },
     {
       name: "Karthik",
-      position: "Lead- Devfolio Team",
+      position: "Lead - Devfolio Team",
       emoji: "🔥",
       image: <img src={Karthik} />,
     },
     {
       name: "Lovia",
-      position: "Core Member- Design Team",
+      position: "Core Member - Design Team",
       emoji: "💅",
       image: <img src={LoviaEB} />,
     },
     {
       name: "Sai Shravan",
-      position: "Core Member- Design Team",
+      position: "Core Member - Design Team",
       emoji: "🔟🐐⚽️",
-      image: <img src={Shravan} />,
+      image: <img src={Shravan_} />,
     },
     {
       name: "Pramod",
-      position: "Core Member- Sponsorship Team",
+      position: "Core Member - Sponsorship Team",
       emoji: "💦",
       image: <img src={Pramod} />,
     },
     {
       name: "Pranay ",
-      position: "Lead- Content Team ",
+      position: "Lead - Content Team",
       emoji: "🗿",
       image: <img src={Pranay} />,
     },
     {
       name: "Yuvika ",
-      position: "Core Member- Content Team",
+      position: "Core Member - Content Team",
       emoji: "🦋",
       image: <img src={Yuvika} />,
     },
     {
       name: "Rashi",
-      position: "Lead- Design Team ",
+      position: "Lead - Design Team",
       emoji: "😪",
       image: <img src={Rashi_Himatsingka} />,
     },
+    {
+      name: "Nitin",
+      position: "Mentor - Sponsorship Team",
+      emoji: "😎",
+      image: <img src={Nitin} />,
+    },
+    {
+      name: "Shreya",
+      position: "Mentor - Devfolio Team",
+      emoji: "🫦",
+      image: <img src={Shreya} />,
+    },
+    {
+      name: "Ashwin",
+      position: "Mentor - Tech Team",
+      emoji: "😈",
+      image: <img src={Ashwin} />,
+    },
+    {
+      name: "Shravan",
+      position: "Mentor - Content Team",
+      emoji: "🤨",
+      image: <img src={Shravan} />,
+    },
+    {
+      name: "Rohan",
+      position: "Mentor - Operations Team",
+      emoji: "🙃",
+      image: <img src={Rohan_G} />,
+    },
+    {
+      name: "Vikitha",
+      position: "Mentor - Design Team",
+      emoji: "🤍",
+      image: <img src={vikitha} />,
+    },
+    {
+      name: "Smitha",
+      position: "Mentor - Social Media Team",
+      emoji: "🧚🏼‍♀️",
+      image: <img src={Smitha} />,
+    },
+    {
+      name: "Ronaka",
+      position: "Mentor - Social Media Team",
+      emoji: "✌️",
+      image: <img src={Rohan_N} />,
+    }
   ];
 
   const getMemberName = (e) => {
@@ -107,7 +155,6 @@ function Footer() {
           Contact Us
         </h1>
       </Reveal>
-      {/* bg-[#101010] */}
       <div className="h-fit flex flex-col gap-1 bottom-0 bg-[#101010]  text-white items-center pt-5 pb-5">
         <div className="flex justify-center items-center gap-5">
           <div className="w-1/2 h-[100px] flex justify-center items-center">
@@ -171,23 +218,18 @@ function Footer() {
             {memberName === null ? (
               <div>Made with 🧡 By NMIT Hacks </div>
             ) : (
-              <div className="flex xl:flex-row lg:flex-row flex-col gap-3">
-                Made with <p>{memberName.emoji}</p> <p>by</p>{" "}
+              // flex xl:flex-row md:flex-row lg:flex-row sm:flex-row flex-col gap-3
+              <div className="flex footer justify-center items-center gap-3">
+                <p>Made with </p>
+                <p>{memberName.emoji}</p>
+                <p>by </p>
                 <p>{memberName.name},</p>
                 <p>{memberName.position}</p>
               </div>
             )}
           </div>
         </div>
-        {/* <div className="looperContainer w-[70%] mx-auto h-[80px]">
-          <InfiniteLooper
-            memberName={memberName}
-            onHover={onHover}
-            getMemberName={getMemberName}
-            memberArray={memberArray}
-          />
-        </div> */}
-        <div class="w-[70%] mx-auto">
+        <div class="w-[90%] mx-auto">
           <InfiniteLooper
             memberName={memberName}
             onHover={onHover}
