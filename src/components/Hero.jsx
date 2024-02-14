@@ -7,12 +7,12 @@ import AboutUs from "./AboutUs";
 const Hero = () => {
   const sentence = "National-Level 48-Hour Hackathon".split("");
   const sentence1 = " by the Dept. of CSE, NMIT".split("");
-  const sentence2 = "17th - 19th May, 2024".split("");
+  const sentence2 = "24th - 26th May, 2024".split("");
   const sentence3 = "Nitte Meenakshi Institute of Technology, Bengaluru".split(
     ""
   );
   return (
-    <section className="mt-60 md:mt-[23rem]  flex flex-col items-center justify-center w-full tracking-wide realtive">
+    <section className="mt-60 md:mt-[23rem]  flex flex-col items-center justify-center w-full tracking-wide realtive"  id="/">
       {/* Hero Image */}
       <div className="flex-col mt-0 absolute top-36 py-10 px-5 h-[clac(screen-100vh)] flex items-center justify-center">
         <img className=" w-full max-w-2xl" src="/assets/LOGOV8.svg" alt="" />
@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
         </Reveal>
         <Reveal>
-          <div className="lg:text-[30px] sm:text-[30px] xs:text-[22px] xxs:text-[16px] font-sans text-white font-medium text-center ">
+          <div className="lg:text-[30px] sm:text-[29px] xs:text-[21px] xxs:text-[15px] font-sans text-white font-medium text-center ">
             {sentence3.map((letter, index) => {
               return (
                 <TextSpan key={index}>

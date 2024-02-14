@@ -2,6 +2,10 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #101010;
 }
 
 .socialIcons {
@@ -17,23 +21,32 @@
   cursor: pointer;
 }
 
-@keyframes scroll {
-  0% {
-    left: 0%;
+@keyframes slide {
+  from {
+    transform: translateX(0);
   }
 
-  100% {
-    left: -100%;
+  to {
+    transform: translateX(-100%);
   }
 }
 
 .animate {
-  animation: scroll 15s linear infinite;
+  animation: slide 35s linear infinite;
 }
+
 
 @media (max-width: 930px) {
   .image img {
     min-width: 50px;
     min-height: 50px;
+  }
+}
+
+@media (max-width:475px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

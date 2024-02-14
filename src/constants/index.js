@@ -2,6 +2,10 @@ import { facebook, instagram, linkedin, twitter } from "../../public/assets";
 
 export const navLinks = [
   {
+    id: "/",
+    title: "Home",
+  },
+  {
     id: "aboutus",
     title: "About Us",
   },
@@ -53,3 +57,22 @@ export const socialMedia = [
     link: "https://www.linkedin.com/",
   },
 ];
+
+export const stats = [
+  {
+    id: "stats-1",
+    title: "On-Campus Participants",
+    value: "150+",
+  },
+  {
+    id: "stats-2",
+    title: "Applications Received",
+    value: "1850+",
+  },
+  {
+    id: "stats-3",
+    title: "Reach on Social Media",
+    value: "10,000+",
+  },
+];
+
