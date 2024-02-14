@@ -10,7 +10,7 @@ function Tracks() {
             Tracks
           </h1>
         </Reveal>
-        <Reveal>
+       
           <h2 className="text-white justify-center items-center font-brand-medium text-[1.2rem] md:text-[1.5rem] lg:text-[2rem] leading-normal lg:leading-[38px] text-center">
             This edition, <span className="text-secondary">sparks</span> will
             fly... We bring you the{" "}
@@ -19,7 +19,7 @@ function Tracks() {
             </span>
             !
           </h2>
-        </Reveal>
+      
       </div>
       <div className="flex xl:flex-row lg:flex-row md:flex-row sm:flex-row justify-center items-center xl:gap-10 lg:gap-3 gap-2">
         <New2CardTrack

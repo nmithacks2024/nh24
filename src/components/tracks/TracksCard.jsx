@@ -62,12 +62,12 @@ const TracksCard = ({ title, text, imgUrl }) => {
           <img src={imgUrl} alt="" />
         </CardImage>
         <CardTextWrapper>
-          <Reveal>
+         
             <CardTextTitle>{title}</CardTextTitle>
-          </Reveal>
-          <Reveal>
+         
+         
             <CardTextBody>{text}</CardTextBody>
-          </Reveal>
+        
         </CardTextWrapper>
       </CardWrapper>
     </Tilt>

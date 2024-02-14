@@ -16,7 +16,7 @@ const Hero = () => {
       {/* Hero Image */}
       <div className="flex-col mt-0 absolute top-36 py-10 px-5 h-[clac(screen-100vh)] flex items-center justify-center">
         <img className=" w-full max-w-2xl" src="/assets/LOGOV8.svg" alt="" />
-        <Reveal>
+        
           <div className="lg:text-[48px] sm:text-[30px] xs:text-[22px] xxs:text-[18px] font-sans text-white font-medium xs:mt-4 text-center ">
             {sentence.map((letter, index) => {
               return (
@@ -26,8 +26,8 @@ const Hero = () => {
               );
             })}
           </div>
-        </Reveal>
-        <Reveal>
+       
+        
           <div className="lg:text-[30px] sm:text-[30px] xs:text-[22px] xxs:text-[15px] font-sans text-white font-medium text-center ">
             {sentence1.map((letter, index) => {
               return (
@@ -37,8 +37,8 @@ const Hero = () => {
               );
             })}
           </div>
-        </Reveal>
-        <Reveal>
+       
+      
           <div className="lg:text-[30px] sm:text-[30px] xs:text-[22px] xxs:text-[15px] font-sans text-white font-medium text-center ">
             {sentence2.map((letter, index) => {
               return (
@@ -48,8 +48,8 @@ const Hero = () => {
               );
             })}
           </div>
-        </Reveal>
-        <Reveal>
+        
+     
           <div className="lg:text-[30px] sm:text-[29px] xs:text-[21px] xxs:text-[15px] font-sans text-white font-medium text-center ">
             {sentence3.map((letter, index) => {
               return (
@@ -59,7 +59,7 @@ const Hero = () => {
               );
             })}
           </div>
-        </Reveal>
+        
         <div className="flex justify-center items-center ">
           <div className=" bg-[#F84611] text-white hover:bg-primary border border-secondary hover:border-secondary hover:text-secondary py-4 px-4 rounded-full font-semibold text-lg cursor-pointer xs:mt-7 lg:mt-10 md:mt-5 sm:mt-3 xxs:mt-10 ">
             Register
@@ -74,17 +74,17 @@ const Hero = () => {
       >
         <div className="flex flex-col gap-10 mb-5 xxs:mt-20 sm:mt-[145px] lg:mt-[145px] md:mt-[50px]">
           <div className="flex justify-center items-center lg:px-[5rem] sm:px-[2rem] px-[2rem] sm:mt-[5rem]">
-            <Reveal>
+            
               <h2 className="text-white font-brand-medium text-[1.2rem] md:text-[1.5rem] lg:text-[2.5rem] leading-normal lg:leading-[45px] max-w-[24rem] md:max-w-[38rem] lg:max-w-[54rem] text-center">
                 A single spark can{" "}
                 <span className="text-secondary font-semiBold ">ignite</span> an{" "}
                 <span className="text-secondary font-semiBold ">inferno</span>{" "}
                 of possibility.
               </h2>
-            </Reveal>
+          
           </div>
           <div className="flex justify-center items-center lg:px-[4rem] sm:px-[3rem] px-[1.2rem]">
-            <Reveal>
+         
               <h2 className="text-white font-brand-medium text-[1.2rem] md:text-[1.5rem] lg:text-[2.5rem] leading-normal lg:leading-[38px] max-w-[24rem] md:max-w-[38rem] lg:max-w-[52rem] text-center">
                 Bringing you the{" "}
                 <span className="text-secondary font-semiBold ">
@@ -96,7 +96,7 @@ const Hero = () => {
                 </span>
                 .
               </h2>
-            </Reveal>
+           
           </div>
           {/* <div className="py-10 lg:py-5 sm:py-5">
             <CountDown />
