@@ -18,19 +18,19 @@ const Sponsors = () => {
         </h1>
       </Reveal>
       <div className='py-10 flex flex-col justify-center items-center text-lg '>
-    {}
+    
 
-    <div className='mt-16 flex p-12 '>
+    <div className='mt-16 p-12 flex lg:flex-row md:flex-col sm:flex-col xxs:flex-col'>
       {SponsorIcon.map((SponsorIcon) => (
-        <div className='block-container rounded-xl  hover:cursor-pointer border-bg-slate-20 p-10' key={SponsorIcon.name}>
+        <div className='block-container rounded-xl  hover:cursor-pointer border-bg-slate-20 p-10 flex flex-col' key={SponsorIcon.name}>
           
-          <div className='btn-front flex justify-center items-center '>
+          <div className='btn-front justify-center items-center '>
           <a href={SponsorIcon.URL} target="_blank">
             <img
               src={SponsorIcon.imageUrl}
               alt={SponsorIcon.name}
               
-              className='w-1/1 h-1/1 object-contain '
+              className='w-1/1 h-1/1 object-contain'
             />
             </a>
           </div>

@@ -71,7 +71,9 @@ const AboutUs = () => {
       myFont leading-tight text-white font-sans"
       >
         <div className="text-left md:text-[1.5rem] lg:text-[2.25rem] sm:text-[1.5rem] xs:text-[1.2rem] xxs:text-[1rem] leading-normal lg:leading-snug max-w-[24rem] md:max-w-[38rem] lg:max-w-[52rem] xxs:flex-col">
+        <div className='justify-center items-center flex flex-col'>
           <Reveal>
+         
             <div className="mb-2">
               We support{" "}
               <span className="text-secondary font-semiBold ">
@@ -103,7 +105,9 @@ const AboutUs = () => {
               </span>{" "}
               to learn, collaborate, and build their network.
             </div>
+            
           </Reveal>
+        </div>
         </div>
       </div>
     </div>
