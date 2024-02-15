@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+  <script type="module" src="/@vite/client"></script>
+
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="\assets\logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <title>NMIT Hacks 2024</title>
+  <meta name="description"
+    content="Join NMIT Hacks 2024; Bangalore's hottest national-level, 48-hour, college hackathon. Compete in AI&ML, Blockchain, Game Dev, IoT, and Open Innovation for exciting prizes." />
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx?t=1708023916373"></script>
+  <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+</body>
+
+</html>

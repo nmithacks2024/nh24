@@ -9,7 +9,7 @@ import {
 export const SponsorIcon= [
     {
         imageUrl: Devfolio,
-        name: "Devfolio",
+        name: "DEVFOLIO LOGO",
         URL: "https://devfolio.co/"
     },
     // {
@@ -19,9 +19,15 @@ export const SponsorIcon= [
     // },
     {
         imageUrl: EthIndia,
-        name: "EthIndia",
+        name: "ETHINDIA LOGO",
         URL: "https://ethindia.co/"
 
+    },
+    {
+        imageUrl: Polygon,
+        name: "POLYGON LOGO",
+        URL: "https://polygon.technology/"
+        
     },
     // {
     //     imageUrl: GiveMyCertificate,
@@ -48,12 +54,7 @@ export const SponsorIcon= [
     //     name: "Threeway",
         
     // },
-    {
-        imageUrl: Polygon,
-        name: "Polygon",
-        URL: "https://polygon.technology/"
-        
-    },
+   
     // {
     //     imageUrl: Wolfram,
     //     name: "Wolfram",
