@@ -2,6 +2,7 @@ import CountDown from "./CountDown";
 import TextSpan from "./TestSpan";
 import Reveal from "./Reveal";
 import AboutUs from "./AboutUs";
+import React from "react";
 // import { Link } from "react-router-dom";
 
 const Hero = () => {
@@ -11,6 +12,16 @@ const Hero = () => {
   const sentence3 = "Nitte Meenakshi Institute of Technology, Bengaluru".split(
     ""
   );
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+}, []);
   return (
     <section className="mt-60 md:mt-[23rem]  flex flex-col items-center justify-center w-full tracking-wide realtive"  id="/">
       {/* Hero Image */}
@@ -60,11 +71,12 @@ const Hero = () => {
             })}
           </div>
         
-        <div className="flex justify-center items-center ">
-          <div className=" bg-[#F84611] text-white hover:bg-primary border border-secondary hover:border-secondary hover:text-secondary py-4 px-4 rounded-full font-semibold text-lg cursor-pointer xs:mt-7 lg:mt-10 md:mt-5 sm:mt-3 xxs:mt-10 ">
-            Register
-          </div>
-        </div>
+          <div 
+          className="apply-button devfolio" 
+          data-hackathon-slug="nmithacks24" 
+          data-button-theme="dark"
+          style={{height: "44px", width: "312px"}}
+        ></div>
       </div>
 
       {/* Hero Content */}
