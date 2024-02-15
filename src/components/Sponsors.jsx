@@ -1,11 +1,13 @@
 import Reveal from "./Reveal";
 import { SponsorIcon } from "./index2";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+
 const Sponsors = () => {
   const onButtonClick = () => {
         const pdfUrl = "./nh24_brochure.pdf";
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.download = "NH24 Brochure.pdf"; // specify the filename
+        link.download = "NH24 Brochure.pdf";
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -18,19 +20,19 @@ const Sponsors = () => {
         </h1>
       </Reveal>
       <div className='py-10 flex flex-col justify-center items-center text-lg '>
-    {}
+    
 
-    <div className='mt-16 flex p-12 '>
+    <div className='mt-16 p-12 flex lg:flex-row md:flex-col sm:flex-col xxs:flex-col'>
       {SponsorIcon.map((SponsorIcon) => (
-        <div className='block-container rounded-xl  hover:cursor-pointer border-bg-slate-20 p-10' key={SponsorIcon.name}>
+        <div className='block-container rounded-xl  hover:cursor-pointer border-bg-slate-20 p-10 flex flex-col' key={SponsorIcon.name}>
           
-          <div className='btn-front flex justify-center items-center '>
+          <div className='btn-front justify-center items-center '>
           <a href={SponsorIcon.URL} target="_blank">
-            <img
+            <LazyLoadImage
               src={SponsorIcon.imageUrl}
               alt={SponsorIcon.name}
               
-              className='w-1/1 h-1/1 object-contain '
+              className='w-1/1 h-1/1 object-contain'
             />
             </a>
           </div>
@@ -40,11 +42,11 @@ const Sponsors = () => {
   </div>
       <div className="flex justify-center items-center">
         <div className="relative max-w-md w-full p-8 bg-white bg-opacity-20 rounded-lg backdrop-blur-md shadow-lg transition duration-300 ease-in-out transform hover:shadow-xl mt-20 xs:mt-[8rem]">
-          <Reveal width="fit-content">
+         
             <p className="text-white mb-4 text-lg">
               Interested in sponsoring NMIT Hacks 2024? Click the button below!
             </p>
-          </Reveal>
+         
           <button className="bg-secondary hover:bg-transparent border-2 border-secondary  hover:text-secondary text-primary font-bold py-2 px-4 rounded inline-flex items-center" onClick={onButtonClick}>
             <svg
               className="fill-current w-4 h-4 mr-2"

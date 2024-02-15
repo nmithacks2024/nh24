@@ -41,6 +41,7 @@ import Shreya from './svg/shreya.svg'
 import Smitha from './svg/Smitha.svg'
 import vikitha from './svg/vikitha.svg'
 import Yuvika from './svg/Yuvika.svg'
+import timeline from './timelline.svg'
 
 export {
   logo,
@@ -83,6 +84,7 @@ export {
   Shravan_,
   Shreya,
   Smitha,
+  timeline,
   vikitha,
   Yuvika,
 };
