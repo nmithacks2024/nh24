@@ -28,7 +28,7 @@ const Sponsors = () => {
           
           <div className='btn-front justify-center items-center '>
           <a href={SponsorIcon.URL} target="_blank">
-            <LazyLoadImage
+            <img
               src={SponsorIcon.imageUrl}
               alt={SponsorIcon.name}
               
