@@ -1,6 +1,6 @@
 import Reveal from "./Reveal";
 import { SponsorIcon } from "./index2";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+const pdf = "https://xaze26ca6jzrysyb.public.blob.vercel-storage.com/nh24%20brochure-IPOvPal1b3P2LIeeIE0PTFxAs8EMr3"
 
 const Sponsors = () => {
   const onButtonClick = () => {
@@ -46,7 +46,7 @@ const Sponsors = () => {
             <p className="text-white mb-4 text-lg">
               Interested in sponsoring NMIT Hacks 2024? Click the button below!
             </p>
-         
+          <a href={pdf} target="_blank" >
           <button className="bg-secondary hover:bg-transparent border-2 border-secondary  hover:text-secondary text-primary font-bold py-2 px-4 rounded inline-flex items-center" onClick={onButtonClick}>
             <svg
               className="fill-current w-4 h-4 mr-2"
@@ -57,6 +57,7 @@ const Sponsors = () => {
             </svg>
               <span>Download</span>
           </button>
+          </a>
         </div>
       </div>
     </div>
