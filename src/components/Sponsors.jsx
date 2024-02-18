@@ -1,17 +1,18 @@
 import Reveal from "./Reveal";
 import { SponsorIcon } from "./index2";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import nh24_brochure from './nh24_brochure.pdf';
 
 const Sponsors = () => {
-  const onButtonClick = () => {
-    const pdfUrl = "./nh24_brochure.pdf";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "NH24 Brochure.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  // const onButtonClick = () => {
+  //   const pdfUrl = "./nh24_brochure.pdf";
+  //   const link = document.createElement("a");
+  //   link.href = pdfUrl;
+  //   link.download = "NH24 Brochure.pdf";
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
 
   const handleDownload = () => {
     const link = document.createElement("a");
@@ -56,7 +57,7 @@ const Sponsors = () => {
               Interested in sponsoring NMIT Hacks 2024? Click the button below!
             </p>
          
-          <button className="bg-secondary hover:bg-transparent border-2 border-secondary  hover:text-secondary text-primary font-bold py-2 px-4 rounded inline-flex items-center" onClick={onButtonClick}>
+          <button className="bg-secondary hover:bg-transparent border-2 border-secondary  hover:text-secondary text-primary font-bold py-2 px-4 rounded inline-flex items-center" onClick={handleDownload}>
             <svg
               className="fill-current w-4 h-4 mr-2"
               xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +67,6 @@ const Sponsors = () => {
             </svg>
             <span>Download</span>
           </button>
-          </a>
         </div>
       </div>
     </div>
