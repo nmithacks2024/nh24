@@ -4,7 +4,27 @@ import "./infiniteLooper.css";
 import Reveal from "./Reveal";
 import { facebook, instagram, linkedin, twitter } from "../../public/assets";
 import {
-  Amey, Ankith__, Arnav, Ashwin, Huvishka, Karthik, LoviaEB, Nitin, Pramod, Pranay, Rachit, Rashi_Himatsingka, Rohan_G, Rohan_N, Sai_uttej, Shravan, Shravan_, Shreya, Smitha, vikitha, Yuvika,
+  Amey,
+  Ankith__,
+  Arnav,
+  Ashwin,
+  Huvishka,
+  Karthik,
+  LoviaEB,
+  Nitin,
+  Pramod,
+  Pranay,
+  Rachit,
+  Rashi_Himatsingka,
+  Rohan_G,
+  Rohan_N,
+  Sai_uttej,
+  Shravan,
+  Shravan_,
+  Shreya,
+  Smitha,
+  vikitha,
+  Yuvika,
 } from "../../public/assets/index.js";
 function Footer() {
   const [memberName, setMemberName] = React.useState(null);
@@ -97,7 +117,7 @@ function Footer() {
     {
       name: "Shreya",
       position: "Mentor - Devfolio Team",
-      emoji: "🫦",
+      emoji: "👄",
       image: <img src={Shreya} />,
     },
     {
@@ -135,7 +155,7 @@ function Footer() {
       position: "Mentor - Social Media Team",
       emoji: "✌️",
       image: <img src={Rohan_N} />,
-    }
+    },
   ];
 
   const getMemberName = (e) => {
