@@ -176,17 +176,17 @@ function Footer() {
               </a>
             </div>
             <div className="socialIcons border-2 border-white p-3">
-              <a href="">
+              <a href="https://www.facebook.com/nmit.hacks.50">
                 <img src={facebook} alt="" />
               </a>
             </div>
             <div className="socialIcons border-2 border-white p-3">
-              <a href="">
+              <a href="https://www.linkedin.com/company/nmit-hacks/posts/?feedView=all">
                 <img src={linkedin} alt="" />
               </a>
             </div>
             <div className="socialIcons border-2 border-white p-3">
-              <a href="">
+              <a href="https://twitter.com/NMIT_Hacks">
                 <img src={twitter} alt="" className="" />
               </a>
             </div>
