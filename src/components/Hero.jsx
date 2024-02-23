@@ -61,7 +61,7 @@ const Hero = () => {
           </div>
         
      
-          <div className="lg:text-[30px] sm:text-[29px] xs:text-[21px] xxs:text-[15px] font-sans text-white font-medium text-center ">
+          <div className="lg:text-[30px] sm:text-[29px] xs:text-[21px] xxs:text-[12px] font-sans text-white font-medium text-center mb-16">
             {sentence3.map((letter, index) => {
               return (
                 <TextSpan key={index}>
