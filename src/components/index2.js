@@ -2,8 +2,10 @@ import {
     Devfolio,
     Polygon,
     EthIndia,
+    xyz,
+    axure,
+    axure2
 } from "../../public/assets/index.js";
-
 
 
 export const SponsorIcon= [
@@ -29,6 +31,21 @@ export const SponsorIcon= [
         URL: "https://polygon.technology/"
         
     },
+
+    {
+        imageUrl: xyz,
+        name: ".xyz",
+        URL: "https://gen.xyz/"
+        
+    },
+
+    {
+        imageUrl: axure2,
+        name: "axure",
+        URL: "https://www.axure.com/"
+        
+    },
+
     // {
     //     imageUrl: GiveMyCertificate,
     //     name: "GiveMyCertificate",
