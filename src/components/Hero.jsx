@@ -124,7 +124,7 @@ const Hero = () => {
             <CountDown />
           </div> */}
           <div className="flex flex-col justify-center items-center mt-10">
-            <div className="text-white mb-5">
+            <div className="text-white mb-5 text-center">
               To view our Core Members of this club please click on the below 👇 button
             </div>
             <div className=" flex justify-center bg-[#F84611] hover:bg-primary border border-secondary hover:border-secondary hover:text-secondary py-4 px-4 rounded-full font-semibold text-lg cursor-pointer">
