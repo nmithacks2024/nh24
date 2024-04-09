@@ -19,7 +19,9 @@ import EthIndia from './ethindia-light.svg';
 import Devfolio from './Devfolio_Logo.png';
 import Polygon from './Polygon_Logo.svg';
 import Nmit_Nitte_Logo from './Nmit_2024_logo.png';
-
+import xyz from "./.xyz.svg";
+import axure2 from "./axure2.svg";
+import axure from "./axure.svg"
 import Amey from './svg/Amey.svg'
 import Ankith__ from './svg/Ankith__.svg'
 import Arnav from './svg/Arnav.svg'
@@ -64,8 +66,11 @@ export {
   Devfolio,
   Polygon,
   Nmit_Nitte_Logo,
+  xyz,
+  axure,
+  axure2,
   EthIndia,
-  Amey, 
+  Amey,
   Ankith__,
   Arnav,
   Ashwin,
