@@ -34,10 +34,10 @@ const Sponsors = () => {
         <div className="w-[80%] mt-16 p-16 flex lg:flex-row md:flex-col sm:flex-col xxs:flex-col flex-wrap justify-evenly">
           {SponsorIcon.map((SponsorIcon) => (
             <div
-              className="block-container rounded-xl  hover:cursor-pointer border-bg-slate-20 p-16 flex flex-col justify-center"
+              className="lg:w-1/2 block-container mb-16 rounded-xl hover:cursor-pointer border-bg-slate-20 flex flex-col justify-center"
               key={SponsorIcon.name}
             >
-              <div className="btn-front flex justify-center items-center ">
+              <div className="btn-front flex justify-center items-center">
                 <a href={SponsorIcon.URL} target="_blank">
                   <img
                     src={SponsorIcon.imageUrl}
