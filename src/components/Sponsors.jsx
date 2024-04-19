@@ -1,7 +1,7 @@
 import Reveal from "./Reveal";
 import { SponsorIcon } from "./index2";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import nh24_brochure from './nh24_brochure.pdf';
+import nh24_brochure from './NH-24.pdf';
 
 const Sponsors = () => {
   // const onButtonClick = () => {

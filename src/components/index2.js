@@ -6,6 +6,36 @@ import {
     axure,
     axure2
 } from "../../public/assets/index.js";
+export const PlatinumSponsors = [
+    {
+        imageUrl: Devfolio,
+        name: "DEVFOLIO LOGO",
+        URL: "https://devfolio.co/"
+    },
+]
+
+const GoldSponsors = [
+    {
+        imageUrl: EthIndia,
+        name: "ETHINDIA LOGO",
+        URL: "https://ethindia.co/"
+    },
+    {
+        imageUrl: Polygon,
+        name: "POLYGON LOGO",
+        URL: "https://polygon.technology/"
+    },
+
+]
+
+const SilverSponsors = [
+    {
+        imageUrl: xyz,
+        name: ".xyz",
+        URL: "https://gen.xyz/"
+    },
+    
+]
 
 
 export const SponsorIcon= [
