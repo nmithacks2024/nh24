@@ -113,7 +113,7 @@ const Sponsors = () => {
         {/* Community Parrtner */}
         <div className="py-8 flex flex-col justify-center items-center text-lg ml-auto">
         <div className="text-white justify-center items-center font-brand-medium text-[2rem] md:text-[3rem] lg:text-[3rem] leading-normal mr-10  text-center">
-      <div className="hover-3">
+      <div className="hover-1">
     Community Partners
       </div>
       </div>
