@@ -19,9 +19,9 @@ import EthIndia from './ethindia-light.svg';
 import Devfolio from './Devfolio_Logo.png';
 import Polygon from './Polygon_Logo.svg';
 import Nmit_Nitte_Logo from './Nmit_2024_logo.png';
-import xyz from "./.xyz.svg";
-import axure2 from "./axure2.svg";
-import axure from "./axure.svg"
+import xyz from "./xyz-logo-white.svg";
+import axure2 from "./axure_.png";
+import axure from "./Axure_logo_400.svg"
 import Amey from './svg/Amey.svg'
 import Ankith__ from './svg/Ankith__.svg'
 import Arnav from './svg/Arnav.svg'
@@ -44,6 +44,8 @@ import Smitha from './svg/Smitha.svg'
 import vikitha from './svg/vikitha.svg'
 import Yuvika from './svg/Yuvika.svg'
 import timeline from './timelline.svg'
+import wolfram from './wolfram_.png'
+import echo3D from './echo3D.png'
 
 export {
   logo,
@@ -51,6 +53,7 @@ export {
   LOGOV8,
   menu,
   close,
+  echo3D,
   facebook,
   instagram,
   linkedin,
@@ -92,4 +95,5 @@ export {
   timeline,
   vikitha,
   Yuvika,
+  wolfram,
 };

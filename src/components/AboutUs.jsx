@@ -65,25 +65,23 @@ const AboutUs = () => {
 
 </Swiper>
 
-    <div className='justify-between items-center mt-10' >
+    <div className='justify-center items-center mt-10' >
       <div
         className="font-
-      myFont leading-tight text-white font-sans"
+      myFont leading-tight text-white font-sans items-center"
       >
-        <div className="text-left md:text-[1.5rem] lg:text-[2.25rem] sm:text-[1.5rem] xs:text-[1.2rem] xxs:text-[1rem] leading-normal lg:leading-snug max-w-[24rem] md:max-w-[38rem] lg:max-w-[52rem] xxs:flex-col">
+        <div className="md:text-[1.5rem] lg:text-[2.25rem] sm:text-[1.5rem] xs:text-[1.2rem] xxs:text-[1rem] leading-normal lg:leading-snug  xxs:flex-col">
         <div className='justify-center items-center flex flex-col'>
-         
-         
-            <div className="mb-2">
+            <div className="mb-2 text-center">
               We support{" "}
-              <span className="text-secondary font-semiBold ">
+              <span className="text-secondary font-semiBold text-center ">
                 budding developers
               </span>{" "}
               on their quest to set the spirit of innovation ablaze.
             </div>
           
           
-            <div className="mb-2">
+            <div className="mb-2 text-center ">
               Over the course of{" "}
               <span className="text-secondary font-semiBold ">
                 6 editions
@@ -94,7 +92,7 @@ const AboutUs = () => {
             </div>
           
          
-            <div className="">
+            <div className="text-center">
               This makes it the perfect opportunity for both{" "}
               <span className="text-secondary font-semiBold ">
                 beginners

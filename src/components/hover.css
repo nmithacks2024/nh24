@@ -1,0 +1,69 @@
+
+.hover-1 {
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #adb5b8; /* the color */
+    
+    color: #f0e6e6ef;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+  }
+  .hover-1:hover {
+    --_p: 100%;
+    --_s: .3s;
+   
+  }
+
+  
+  .hover-2 {
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #FFD700; /* the color */
+    
+    color: #ebe1e1;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+  }
+  .hover-2:hover {
+    --_p: 100%;
+    --_s: .3s;
+    color:#FFD700
+  }
+
+
+  .hover-3 {
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #C0C0C0; /* the color */
+    
+    color: #ebe5e5e8;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+  }
+  .hover-3:hover {
+    --_p: 100%;
+    --_s: .3s;
+    color: #807F7A;
+    
+  }
+
+
+  h3 {
+    font-family: system-ui, sans-serif;
+    font-size: 4rem;
+    margin:0 auto;
+    cursor: pointer;
+    padding: 0 .1em;
+  }

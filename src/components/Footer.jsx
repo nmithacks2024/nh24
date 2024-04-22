@@ -183,6 +183,7 @@ function Footer() {
           <div className="scale-50 w-1/2 flex justify-center items-center h-[200px]">
             <img src="/assets/logo2.png" alt="nmit hacks" />
           </div>
+          
         </div>
 
         <div className="flex flex-col justify-center items-center gap-10">

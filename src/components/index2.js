@@ -4,8 +4,11 @@ import {
     EthIndia,
     xyz,
     axure,
-    axure2
+    axure2,
+    wolfram,
+    echo3D, 
 } from "../../public/assets/index.js";
+
 export const PlatinumSponsors = [
     {
         imageUrl: Devfolio,
@@ -14,7 +17,7 @@ export const PlatinumSponsors = [
     },
 ]
 
-const GoldSponsors = [
+export const GoldSponsors = [
     {
         imageUrl: EthIndia,
         name: "ETHINDIA LOGO",
@@ -28,11 +31,28 @@ const GoldSponsors = [
 
 ]
 
-const SilverSponsors = [
+export const SilverSponsors = [
     {
         imageUrl: xyz,
         name: ".xyz",
         URL: "https://gen.xyz/"
+    },
+    {
+        imageUrl: axure2,
+        name: "axure",
+        URL: "https://www.axure.com/"
+        
+    },
+    {
+        imageUrl: wolfram,
+        name: "Wolfram",
+        URL: "https://www.wolfram.com/"
+        
+    },
+    {
+        imageUrl: echo3D,
+        name: "echo3D",
+        URL: "https://www.echo3D.co/"
     },
     
 ]
