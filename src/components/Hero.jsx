@@ -120,9 +120,9 @@ const Hero = () => {
             </h2>
 
           </div>
-          {/* <div className="py-10 lg:py-5 sm:py-5">
+          <div className="py-10 lg:py-5 sm:py-5">
             <CountDown />
-          </div> */}
+          </div>
           <div className="flex flex-col justify-center items-center mt-10">
             <div className="text-white mb-5 text-center">
               To view our Core Members of this club please click on the below 👇 button

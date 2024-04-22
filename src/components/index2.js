@@ -3,6 +3,7 @@ import {
     Polygon,
     EthIndia,
     xyz,
+    TheDevArmy,
     axure,
     axure2,
     wolfram,
@@ -52,9 +53,17 @@ export const SilverSponsors = [
     {
         imageUrl: echo3D,
         name: "echo3D",
-        URL: "https://www.echo3D.co/"
+        URL: "https://www.echo3D.co/",
     },
     
+]
+
+export const CommunitySponsors = [
+    {
+        imageUrl: TheDevArmy,
+        name: "TheDevArmy",
+        URL: "https://thedevarmy.com/",
+    },
 ]
 
 

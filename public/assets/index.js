@@ -46,6 +46,7 @@ import Yuvika from './svg/Yuvika.svg'
 import timeline from './timelline.svg'
 import wolfram from './wolfram_.png'
 import echo3D from './echo3D.png'
+import TheDevArmy from './theDevArmy.png'
 
 export {
   logo,
@@ -78,6 +79,7 @@ export {
   Arnav,
   Ashwin,
   Huvishka,
+  TheDevArmy,
   Karthik,
   LoviaEB,
   Nitin,

@@ -50,7 +50,7 @@ const CountDown = () => {
     const countDownDate = new Date(
       customDate.getFullYear(),
       customDate.getMonth() + 1,
-      customDate.getDate() + 6,
+      customDate.getDate() + 1,
       customDate.getHours(),
       customDate.getMinutes(),
       customDate.getSeconds() + 1

@@ -1,5 +1,5 @@
 import Reveal from "./Reveal";
-import { SponsorIcon,PlatinumSponsors, GoldSponsors,SilverSponsors } from "./index2";
+import { SponsorIcon,PlatinumSponsors, GoldSponsors,SilverSponsors, CommunitySponsors } from "./index2";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import nh24_brochure from './NH-24.pdf';
 import "./hover.css"
@@ -110,6 +110,34 @@ const Sponsors = () => {
           ))}
         </div>
         </div>
+        {/* Community Parrtner */}
+        <div className="py-8 flex flex-col justify-center items-center text-lg ml-auto">
+        <div className="text-white justify-center items-center font-brand-medium text-[2rem] md:text-[3rem] lg:text-[3rem] leading-normal mr-10  text-center">
+      <div className="hover-3">
+    Community Partners
+      </div>
+      </div>
+        <div className="w-[100%] mt-16 ml-24 p-4 flex lg:flex-row md:flex-col flex-col flex-wrap justify-center items-center">
+          {CommunitySponsors.map((CommunitySponsors) => (
+            <div
+              className="lg:w-1/2 block-container mb-16 rounded-xl hover:cursor-pointer border-bg-slate-20 flex flex-col justify-center"
+              key={CommunitySponsors.name}
+            >
+              <div className="btn-front flex justify-center items-center ">
+                <a href={CommunitySponsors.URL} target="_blank">
+                  <img
+                    src={CommunitySponsors.imageUrl}
+                    alt={CommunitySponsors.name}
+                    className="w-[70%] h-1/1 object-contain"
+                  />
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+        </div>
+
+
       <div className="flex justify-center items-center">
         <div className="relative max-w-md w-full p-8 bg-white bg-opacity-20 rounded-lg backdrop-blur-md shadow-lg transition duration-300 ease-in-out transform hover:shadow-xl mt-20 xs:mt-[8rem]">
 
