@@ -102,7 +102,7 @@ const Sponsors = () => {
                   <img
                     src={SilverSponsors.imageUrl}
                     alt={SilverSponsors.name}
-                    className="w-[70%] h-1/1 object-contain"
+                    className="w-[70%] h-1/1 object-contain xxs:ml-12"
                   />
                 </a>
               </div>
