@@ -3,6 +3,7 @@ import styles from "./style";
 //import useScripts from "./useScripts";
 
 import {
+  AnimatedTooltip,
   Hero,
   AboutUs,
   NavBar,
@@ -46,6 +47,9 @@ const App = () => (
         <div className="sec bg-primary" id="sponsors">
           <Sponsors />
         </div>
+      {/*  <div className="sec bg-primary" id="sponsors">
+          <AnimatedTooltip />
+        </div>*/}
         <div className="sec bg-primary" id="faq">
           <FAQ />
         </div>

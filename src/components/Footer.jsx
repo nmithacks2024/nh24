@@ -2,6 +2,7 @@ import React from "react";
 import InfiniteLooper from "./infiniteLooper";
 import "./infiniteLooper.css";
 import Reveal from "./Reveal";
+import  AnimatedPinDemo  from "./Mards";
 import { facebook, instagram, linkedin, twitter } from "../../public/assets";
 import {
   Amey,
@@ -189,6 +190,7 @@ function Footer() {
           
         </div>
         <div className=" mt-10 mb-10"><iframe className="h-[400px] w-[600px]" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=%206429,%20NITTE%20Meenakshi%20College%20Rd,%20BSF%20Campus,%20Yelahanka,%20Bengaluru,%20Govindapura,%20Karnataka%20560064+(Nitte%20Meenakshi%20Institute%20of%20Technology)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/"></a></iframe></div>
+     
 
         <div className="flex flex-col justify-center items-center gap-10">
           <div className="flex  justify-center items-center">
