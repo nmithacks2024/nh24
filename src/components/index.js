@@ -2,7 +2,7 @@ import Hero from "./Hero";
 import NavBar from "./NavBar";
 import CountDown from "./CountDown";
 import AboutUs from "./AboutUs";
-import Timeline from "./Timeline";
+import Timeline from "../components/Timeline/Timeline.jsx";
 import Sponsors from "./Sponsors";
 import FAQ from "./FAQ";
 import Footer from "./Footer";
