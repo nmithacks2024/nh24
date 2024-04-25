@@ -72,13 +72,15 @@ const Timeline = () => {
       </div>
       <div className=" mx-auto sm:px-8">
         <div className="lg:py-10">
-        {/* <div className="my-5 mt-14 flex flex-col lg:flex-row align-middle items-center justify-between ">
+        <div className="my-5 mt-14 flex flex-col lg:flex-row align-middle items-center justify-between ">
         <img src={timeline} alt="timeline" className="w-1/2 h-1/2 object-contain" />
         <p className="text-white md:mt-14 lg:text-[55px] sm:text-[40px] xxs:text-[30px] sm:mt-14 lg:ml-20 xxs:mt-14 font-medium flex-col lg:flex-row">Coming Soon</p>
         
-        </div> */}
+        </div>
 
-        <motion.div variants={textVariant()}>
+      
+
+  {/* <motion.div variants={textVariant()}>
         <div className="flex flex-row justify-evenly items-center ">
         <button className=" border border-gray-100 rounded-md" >
           <p className={styles.sectionSubText} onClick={() => handleSetActive(Day1)}> Day 1</p> 
@@ -92,8 +94,8 @@ const Timeline = () => {
        
       
         </div>
-        </motion.div>
-        <div className="mt-20 flex flex-col">
+        </motion.div> */}
+        {/* <div className="mt-20 flex flex-col">
         <VerticalTimeline>
         {
           active.map((content,index)=>(
@@ -102,9 +104,7 @@ const Timeline = () => {
         }
         </VerticalTimeline>
 
-        </div>
-
-
+        </div> */}
         
          
         </div>
