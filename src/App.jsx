@@ -1,7 +1,5 @@
 import styles from "./style";
 
-//import useScripts from "./useScripts";
-
 import {
   AnimatedTooltip,
   Hero,
@@ -41,15 +39,15 @@ const App = () => (
         <div className="sec bg-primary" id="prizes">
           <PrizeSection />
         </div>
-        <div className="sec bg-primary" id="timeline">
+        {/* <div className="sec bg-primary" id="timeline">
           <Timeline />
-        </div>
+        </div> */}
         <div className="sec bg-primary" id="sponsors">
           <Sponsors />
         </div>
-      {/*  <div className="sec bg-primary" id="sponsors">
+        {/* <div className="sec bg-primary" id="sponsors">
           <AnimatedTooltip />
-        </div>*/}
+        </div> */}
         <div className="sec bg-primary" id="faq">
           <FAQ />
         </div>
