@@ -15,11 +15,11 @@ const CountDown = () => {
         : `0${Math.floor(timeDiffrence / (24 * 60 * 60 * 1000))}`;
     const hours =
       Math.floor((timeDiffrence % (24 * 60 * 60 * 1000)) / (1000 * 60 * 60)) >=
-      10
+        10
         ? Math.floor((timeDiffrence % (24 * 60 * 60 * 1000)) / (1000 * 60 * 60))
         : `0${Math.floor(
-            (timeDiffrence % (24 * 60 * 60 * 1000)) / (1000 * 60 * 60)
-          )}`;
+          (timeDiffrence % (24 * 60 * 60 * 1000)) / (1000 * 60 * 60)
+        )}`;
     const minutes =
       Math.floor((timeDiffrence % (60 * 60 * 1000)) / (1000 * 60)) >= 10
         ? Math.floor((timeDiffrence % (60 * 60 * 1000)) / (1000 * 60))
@@ -46,15 +46,16 @@ const CountDown = () => {
     }
   };
   const startCountDown = useCallback(() => {
-    const customDate = new Date();
-    const countDownDate = new Date(
-      customDate.getFullYear(),
-      customDate.getMonth() + 1,
-      customDate.getDate() + 1,
-      customDate.getHours(),
-      customDate.getMinutes(),
-      customDate.getSeconds() + 1
-    );
+    // const customDate = new Date();
+    // const countDownDate = new Date(
+    //   customDate.getFullYear(),
+    //   customDate.getMonth() + 1,
+    //   customDate.getDate() + 1,
+    //   customDate.getHours(),
+    //   customDate.getMinutes(),
+    //   customDate.getSeconds() + 1
+    // );
+    const countDownDate = new Date('2024-05-24T00:00:00');
     setInterval(() => {
       getTimeDifference(countDownDate.getTime());
     }, 1000);
