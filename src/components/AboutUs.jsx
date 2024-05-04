@@ -55,12 +55,12 @@ const AboutUs = () => {
   className="mySwiper h-1/2 w-1/2"
 >
   <SwiperSlide >
-  <img src="\assets\photoGallery1.jpg" className="rounded-box" />
+  <img src="https://res.cloudinary.com/dzm8drvuk/image/upload/v1714803834/nh24/photoGallery1_o4xtih.jpg" className="rounded-box" />
   </SwiperSlide>
   <SwiperSlide>
-  <img src="\assets\photoGallery2.jpg" className="rounded-box" />  </SwiperSlide>
+  <img src="https://res.cloudinary.com/dzm8drvuk/image/upload/v1714804301/nh24/photoGallery3_ebpbe9.jpg" className="rounded-box" />  </SwiperSlide>
   <SwiperSlide>
-  <img src="\assets\photoGallery3.jpg" className="rounded-box" />
+  <img src="https://res.cloudinary.com/dzm8drvuk/image/upload/v1714804299/nh24/photoGallery2_ufm9ml.jpg" className="rounded-box" />
   </SwiperSlide>
 
 </Swiper>
