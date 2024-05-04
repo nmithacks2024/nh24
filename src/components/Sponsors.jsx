@@ -265,7 +265,7 @@ const Sponsors = () => {
       </div>
       {/* Community Parrtner */}
       <div className="pt-3 flex flex-col justify-center items-center text-lg ml-auto">
-        <div className="text-white justify-center items-center font-brand-medium text-[2rem] md:text-[3rem] lg:text-[3rem] leading-normal mr-10  text-center">
+        <div className="text-white text-center justify-center items-center font-brand-medium text-[2rem] md:text-[3rem] lg:text-[3rem] leading-normal mr-10  text-center">
           <div className="hover-1">
             Community Partners
           </div>
@@ -280,7 +280,7 @@ const Sponsors = () => {
                 <img
                   src={CommunitySponsors.imageUrl}
                   alt={CommunitySponsors.name}
-                  className="w-[80%] h-[80%] object-contain"
+                  className="w-[50%] h-[50%] object-contain"
                 />
               </a>
             </div>

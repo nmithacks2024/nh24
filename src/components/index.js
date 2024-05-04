@@ -6,10 +6,10 @@ import Timeline from "../components/Timeline/Timeline.jsx";
 import Sponsors from "./Sponsors";
 import FAQ from "./FAQ";
 import Footer from "./Footer";
-import MouseParticleTrail from "./FlameComponent";
+import MouseParticleTrail from "./FlameComponent.jsx";
 import Tracks from "./tracks/Tracks";
 import PrizeSection from "./PrizeSection/PrizeSection";
-import FlameComponent from "./FlameComponent";
+import FlameComponent from "./FlameComponent.jsx";
 import MouseTrail2 from "./MouseTrail2";
 import AnimatedTooltip from '../components/Team/animated-tooltip.jsx';
 
