@@ -47,6 +47,7 @@ import timeline from './timelline.svg'
 import wolfram from './wolfram_.png'
 import echo3D from './echo3D.png'
 import TheDevArmy from './theDevArmy.png'
+import Ox from './0xDay.png'
 
 export {
   logo,
@@ -63,6 +64,7 @@ export {
   next,
   bg,
   ai,
+  Ox,
   oi,
   iot,
   game,

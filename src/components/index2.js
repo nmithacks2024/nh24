@@ -5,6 +5,7 @@ import {
     xyz,
     TheDevArmy,
     axure,
+    Ox,
     axure2,
     wolfram,
     echo3D, 
@@ -29,6 +30,12 @@ export const GoldSponsors = [
         name: "POLYGON LOGO",
         URL: "https://polygon.technology/"
     },
+    {
+        imageUrl: Ox,
+        name: "0x",
+        URL: "https://0x.org/"
+        
+    }
 
 ]
 
