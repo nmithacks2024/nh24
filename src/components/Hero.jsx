@@ -81,12 +81,12 @@ const Hero = () => {
           })}
         </div>
 
-        {/* <div
+        <div
           className="apply-button devfolio"
           data-hackathon-slug="nmithacks24"
           data-button-theme="dark"
           style={{ height: "44px", width: "312px" }}
-        ></div> */}
+        ></div>
         
       </div>
 
