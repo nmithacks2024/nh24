@@ -1,130 +1,94 @@
-
+// import {logo} from "../../../public/assets/logo.png";
+// import {logo2} from "../../../public/assets/logo2.png";
 
 export const Day1 = [
   {
     title: "Check-in",
     company_name: "",
-    // icon: starbucks,
+    icon: "../../../public/assets/logo.png",
     iconBg: "#383E56",
     date: "12:30 PM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participants needs to check-in their teams and collect Stickers & Swags !"
     ],
   },
   {
-    title: "Inaugration",
+    title: "Inauguration",
     company_name: "Sir M Visvesvarya Auditorium",
-    // icon: tesla,
+    icon: "../../../public/assets/logo2.png",
     iconBg: "#E6DEDD",
     date: "2:30 PM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Speaker sessions.",
+      "Finalization of teams.",
+      "Announcement of Venue.",
     ],
   },
   {
     title: "Snacks",
     company_name: "",
-    // icon: shopify,
+    icon: "../../../public/assets/logo.png",
     iconBg: "#383E56",
     date: "4:00 PM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "🍕🍔🍸☕🧋🍵"
+    ]
   },
   {
     title: "Hack Begins",
     company_name: "CSE LABS",
-    // icon: meta,
+    icon: "../../../public/assets/logo2.png",
     iconBg: "#E6DEDD",
     date: "4:30 PM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Gear up to code and research."
     ],
   },
   {
     title: "Mentoring Session 1",
     company_name: "CSE LABS",
-    // icon: shopify,
+    icon: "../../../public/assets/logo.png",
     iconBg: "#383E56",
     date: "7:00 - 9:00 PM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Mentors to be announced soon.",
     ],
   },
   {
     title: "Dinner",
     company_name: "Annapoorna Mess",
-    // icon: meta,
+    icon: "../../../public/assets/logo2.png",
     iconBg: "#E6DEDD",
     date: "8:00 PM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      
+    ]
   },
 ]
 
 export const Day2 = [
   {
-    title: "Midnight Surprise",
-    company_name: "Surprise Surprise",
-    // icon: shopify,
-    iconBg: "#383E56",
-    date: "12:00 AM",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Breakfast",
     company_name: "Annapoorna Mess",
-    // icon: meta,
+    icon: "../../../public/assets/logo.png",
     iconBg: "#E6DEDD",
     date: "8:00 AM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    ]
   },
   {
     title: "Lunch",
     company_name: "Annapoorna Mess",
-    // icon: meta,
+    icon: "../../../public/assets/logo2.png",
     iconBg: "#E6DEDD",
     date: "1:30 PM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    ]
   },
   {
     title: "Partner Session",
     company_name: "APJ Abdul Kalam Seminar Hall",
-    // icon: shopify,
+    icon: "../../../public/assets/logo.png",
     iconBg: "#383E56",
     date: "3:00 PM",
     points: [
@@ -137,7 +101,7 @@ export const Day2 = [
   {
     title: "Snacks",
     company_name: "",
-    // icon: meta,
+    icon: "../../../public/assets/logo2.png",
     iconBg: "#E6DEDD",
     date: "4:00 - 4:30 PM",
     points: [
@@ -150,7 +114,7 @@ export const Day2 = [
   {
     title: "Mentoring Session 2",
     company_name: "CSE LABS",
-    // icon: meta,
+    icon: "../../../public/assets/logo.png",
     iconBg: "#E6DEDD",
     date: "7:00 - 9:00 PM",
     points: [
@@ -163,7 +127,7 @@ export const Day2 = [
   {
     title: "Dinner",
     company_name: "Annapoorna Mess",
-    // icon: meta,
+    icon: "../../../public/assets/logo2.png",
     iconBg: "#E6DEDD",
     date: "8:00 PM",
     points: [
@@ -177,22 +141,9 @@ export const Day2 = [
 ]
 export const Day3 = [
   {
-    title: "Midnight Surprise",
-    company_name: "Surprise Surprise",
-    // icon: meta,
-    iconBg: "#E6DEDD",
-    date: "12:00 AM",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "Breakfast",
     company_name: "Annapoorna Mess",
-    // icon: meta,
+    icon: "../../../public/assets/logo.png",
     iconBg: "#E6DEDD",
     date: "8:00 AM",
     points: [
@@ -205,7 +156,7 @@ export const Day3 = [
   {
     title: "Preliminary Evaluation Round",
     company_name: "CSE Labs",
-    // icon: shopify,
+    icon: "../../../public/assets/logo2.png",
     iconBg: "#383E56",
     date: "8:30 - 10:30 AM",
     points: [
@@ -218,7 +169,7 @@ export const Day3 = [
   {
     title: "Final Project Submission",
     company_name: "Devfolio",
-    // icon: meta,
+    icon: "../../../public/assets/logo.png",
     iconBg: "#E6DEDD",
     date: "11:00 AM",
     points: [
@@ -231,7 +182,7 @@ export const Day3 = [
   {
     title: "Lunch",
     company_name: "Annapoorna Mess",
-    // icon: shopify,
+    icon: "../../../public/assets/logo2.png",
     iconBg: "#383E56",
     date: "12:00 PM",
     points: [
@@ -244,7 +195,7 @@ export const Day3 = [
   {
     title: "Announcement of top 10 teams",
     company_name: "",
-    // icon: meta,
+    icon: "../../../public/assets/logo.png",
     iconBg: "#E6DEDD",
     date: "1:00 PM",
     points: [
@@ -257,7 +208,7 @@ export const Day3 = [
   {
     title: "Final Evaluation Round",
     company_name: "APJ Abdul Kalam Seminar Hall",
-    // icon: meta,
+    icon: "../../../public/assets/logo2.png",
     iconBg: "#E6DEDD",
     date: "1:30 PM",
     points: [
@@ -270,7 +221,7 @@ export const Day3 = [
   {
     title: "Vote of Thanks",
     company_name: "APJ Abdul Kalam Seminar Hall",
-    // icon: meta,
+    icon: "../../../public/assets/logo.png",
     iconBg: "#E6DEDD",
     date: "4:30 PM",
     points: [

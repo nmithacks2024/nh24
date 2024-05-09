@@ -16,6 +16,7 @@ import oi from "./oi.png";
 import iot from "./iot.png";
 import blockchain from "./blockchain.png";
 import EthIndia from './ethindia-light.svg';
+import OxDay from "./OxDay.png";
 import Devfolio from './Devfolio_Logo.png';
 import Polygon from './Polygon_Logo.svg';
 import Nmit_Nitte_Logo from './Nmit_2024_logo.png';
@@ -71,6 +72,7 @@ export {
   Polygon,
   Nmit_Nitte_Logo,
   xyz,
+  OxDay,
   axure,
   axure2,
   EthIndia,

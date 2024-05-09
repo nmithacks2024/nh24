@@ -3,6 +3,7 @@ import {
     Polygon,
     EthIndia,
     xyz,
+    OxDay,
     TheDevArmy,
     axure,
     axure2,
@@ -29,6 +30,12 @@ export const GoldSponsors = [
         name: "POLYGON LOGO",
         URL: "https://polygon.technology/"
     },
+    {
+        imageUrl: OxDay,
+        name: "0x",
+        URL: "https://0x.org/"
+        
+    }
 
 ]
 
@@ -55,6 +62,11 @@ export const SilverSponsors = [
         name: "echo3D",
         URL: "https://www.echo3D.co/",
     },
+    {
+        imageUrl:"https://assets.zyrosite.com/cdn-cgi/image//mePORKrXBzie3257/1st-1-m6L85Jy2PKtPZ4bp.png",
+        name:"Give My Certificate",
+        url: "https://givemycertificate.com/"
+    }
     
 ]
 

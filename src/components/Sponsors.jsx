@@ -256,7 +256,7 @@ const Sponsors = () => {
                 <img
                   src={SilverSponsors.imageUrl}
                   alt={SilverSponsors.name}
-                  className="w-[90%] h-[90%] object-contain"
+                  className="w-[80%] h-[80%] object-contain"
                 />
               </a>
             </CardWrapper>

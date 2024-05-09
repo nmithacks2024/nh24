@@ -1,0 +1,26 @@
+.dateClass{
+    font-weight:800 !important;
+    font-size:x-large !important;
+    color: #f84611;
+    padding: 10px !important;
+}
+
+.verticalTimeline::before{
+    padding:2px !important;
+    border-radius: 50% !important;
+}
+
+.textClass{
+    /* background-color: #f84611 !important; */
+    box-shadow: 0 3px 0 #f84611 !important;
+}
+
+.textClass h2{
+    font-size: x-large !important;
+    font-weight: 900 !important;
+}
+
+.textClass p{
+    font-weight:700 !important;
+    font-size: larger !important;
+}
