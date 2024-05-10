@@ -264,32 +264,34 @@ const Sponsors = () => {
         </div>
       </div>
       {/* Community Parrtner */}
-      <div className="pt-3 flex flex-col justify-center items-center text-lg ml-auto">
-        <div className="text-white text-center justify-center items-center font-brand-medium text-[2rem] md:text-[3rem] lg:text-[3rem] leading-normal mr-10  text-center">
-          <div className="hover-1">
+      <div className="pt-3 flex flex-col justify-center items-center text-lg mx-auto">
+        <div className="text-white flex text-center justify-center items-center mx-auto font-brand-medium text-[2rem] md:text-[3rem] lg:text-[3rem] leading-normal">
+          <div className="hover-1 text-center flex justify-center items-center">
             Community Partners
           </div>
         </div>
-        <div className="w-[100%] mt-3 flex lg:flex-row md:flex-col flex-col flex-wrap justify-center items-center">
+        <div className="w-[100%] mt-3 p-4 flex lg:flex-row md:flex-row sm:flex-row flex-wrap justify-center items-center gap-5">
           {CommunitySponsors.map((CommunitySponsors) => (
-            <div
-              className="lg:w-1/2 block-container mb-16 rounded-xl hover:cursor-pointer border-bg-slate-20 flex flex-col justify-center"
-              key={CommunitySponsors.name}
-            >
+            // <div
+            //   className="lg:w-1/2 block-container mb-16 rounded-xl hover:cursor-pointer border-bg-slate-20 flex flex-col justify-center"
+            //   key={CommunitySponsors.name}
+            // >
+            <CardWrapper>
               <a href={CommunitySponsors.URL} target="_blank" className="flex justify-center items-center">
                 <img
                   src={CommunitySponsors.imageUrl}
                   alt={CommunitySponsors.name}
-                  className="w-[50%] h-[50%] object-contain"
+                  className="w-[70%] h-[60%] object-contain"
                 />
               </a>
-            </div>
+            </CardWrapper>
+            // </div>
           ))}
         </div>
       </div>
 
 
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mt-10">
         <div className="relative max-w-md w-full p-8 bg-white bg-opacity-20 rounded-lg backdrop-blur-md shadow-lg transition duration-300 ease-in-out transform hover:shadow-xl mt-20 xs:mt-[1rem]">
 
           <p className="text-white mb-4 text-lg">

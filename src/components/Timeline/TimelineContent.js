@@ -9,7 +9,8 @@ export const Day1 = [
     iconBg: "#383E56",
     date: "12:30 PM",
     points: [
-      "Participants needs to check-in their teams and collect Stickers & Swags !"
+      "Participants arrive, register, and settle in for the event."
+
     ],
   },
   {
@@ -19,9 +20,7 @@ export const Day1 = [
     iconBg: "#E6DEDD",
     date: "2:30 PM",
     points: [
-      "Speaker sessions.",
-      "Finalization of teams.",
-      "Announcement of Venue.",
+      "The official opening of the event, including a welcome speech and event overview."
     ],
   },
   {
@@ -29,9 +28,9 @@ export const Day1 = [
     company_name: "",
     icon: "../../../public/assets/logo.png",
     iconBg: "#383E56",
-    date: "4:00 PM",
+    date: "4:00 - 4:30 PM",
     points: [
-      "🍕🍔🍸☕🧋🍵"
+      "A break for participants to enjoy refreshments and socialize."
     ]
   },
   {
@@ -41,7 +40,7 @@ export const Day1 = [
     iconBg: "#E6DEDD",
     date: "4:30 PM",
     points: [
-      "Gear up to code and research."
+      "The hackathon officially starts, and participants begin working on their projects."
     ],
   },
   {
@@ -51,7 +50,7 @@ export const Day1 = [
     iconBg: "#383E56",
     date: "7:00 - 9:00 PM",
     points: [
-      "Mentors to be announced soon.",
+      "The first mentoring session where participants receive guidance and feedback on their projects from mentors.",
     ],
   },
   {
@@ -92,10 +91,7 @@ export const Day2 = [
     iconBg: "#383E56",
     date: "3:00 PM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Hear from our esteemed partners as they introduce you to their cutting-edge platforms and technologies.",
     ],
   },
   {
@@ -105,10 +101,7 @@ export const Day2 = [
     iconBg: "#E6DEDD",
     date: "4:00 - 4:30 PM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      
     ],
   },
   {
@@ -118,10 +111,7 @@ export const Day2 = [
     iconBg: "#E6DEDD",
     date: "7:00 - 9:00 PM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "The second mentoring session for participants to receive further guidance and feedback on their projects.",
     ],
   },
   {
@@ -131,10 +121,7 @@ export const Day2 = [
     iconBg: "#E6DEDD",
     date: "8:00 PM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      
     ],
   },
 
@@ -147,10 +134,7 @@ export const Day3 = [
     iconBg: "#E6DEDD",
     date: "8:00 AM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      
     ],
   },
   {
@@ -160,10 +144,7 @@ export const Day3 = [
     iconBg: "#383E56",
     date: "8:30 - 10:30 AM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Respective domain judges will evaluate your work and score accordingly.",
     ],
   },
   {
@@ -173,10 +154,7 @@ export const Day3 = [
     iconBg: "#E6DEDD",
     date: "11:00 AM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "The deadline for participants to submit their final project work.",
     ],
   },
   {
@@ -186,23 +164,17 @@ export const Day3 = [
     iconBg: "#383E56",
     date: "12:00 PM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      
     ],
   },
   {
-    title: "Announcement of top 10 teams",
+    title: "Announcement of Top 10 Projects",
     company_name: "",
     icon: "../../../public/assets/logo.png",
     iconBg: "#E6DEDD",
     date: "1:00 PM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Respective domain judges will evaluate and score the projects",
     ],
   },
   {
@@ -212,10 +184,7 @@ export const Day3 = [
     iconBg: "#E6DEDD",
     date: "1:30 PM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "The top 10 teams shall present their project to the grand jury, and the winners of the hackathon will be announced.",
     ],
   },
   {
@@ -225,10 +194,7 @@ export const Day3 = [
     iconBg: "#E6DEDD",
     date: "4:30 PM",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      
     ],
   },
 

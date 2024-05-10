@@ -6,9 +6,12 @@ import "./styles.css";
 export default function WinnerCard({ winners, winner, index }) {
 
   const colors = [
-    "bg-[#8f7a04]",
-    "bg-[#9c9898]",
-    "bg-[#82500b]"
+    // "bg-[#8f7a04]",
+    // "bg-[#9c9898]",
+    // "bg-[#82500b]"
+    "bg-[#FFD700]",
+    "bg-[#C0C0C0]",
+    "bg-[#967444]"
   ];
 
   return (

@@ -6,6 +6,7 @@ import {
     OxDay,
     TheDevArmy,
     axure,
+    blockchainIndia,
     axure2,
     wolfram,
     echo3D, 
@@ -75,6 +76,11 @@ export const CommunitySponsors = [
         imageUrl: TheDevArmy,
         name: "TheDevArmy",
         URL: "https://thedevarmy.com/",
+    },
+    {
+        imageUrl: blockchainIndia,
+        name: "Blockchain India",
+        URL: "https://www.blockchainedindia.com/",
     },
 ]
 
