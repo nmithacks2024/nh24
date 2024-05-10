@@ -42,7 +42,7 @@ const AnimatedTooltip = () => {
       </div>
       
    
-      <div className="flex flex-wrap justify-evenly mb-24">
+      <div className="flex flex-wrap justify-evenly m-10">
 
 {TechTeam.map((TechTeam) => (
   <div
@@ -104,11 +104,11 @@ const AnimatedTooltip = () => {
           Design Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly mb-24 mt-20">
+      <div className="flex flex-wrap justify-evenly m-10">
 
         {DesignTeam.map((DesignTeam) => (
           <div
-            className="-mr-4 relative group cursor-pointer"
+            className="-mr-4 relative group cursor-pointer mt-20"
             key={DesignTeam.name}
             onMouseEnter={() => setHoveredIndex(DesignTeam.id)}
             onMouseLeave={() => setHoveredIndex(null)}
@@ -162,11 +162,11 @@ const AnimatedTooltip = () => {
           Social Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly mb-24 mt-20">
+      <div className="flex flex-wrap justify-evenly m-10">
 
         {SocialMediaTeam.map((SocialmediaTeam) => (
           <div
-            className="-mr-4 relative group cursor-pointer"
+            className="-mr-4 relative group cursor-pointer mt-20"
             key={SocialmediaTeam.name}
             onMouseEnter={() => setHoveredIndex(SocialmediaTeam.id)}
             onMouseLeave={() => setHoveredIndex(null)}
@@ -220,11 +220,11 @@ const AnimatedTooltip = () => {
           Content Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly mb-24 mt-20">
+      <div className="flex flex-wrap justify-evenly m-10">
 
         {ContentTeam.map((ContentTeam) => (
           <div
-            className="-mr-4 relative group cursor-pointer"
+            className="-mr-4 relative group cursor-pointer mt-20"
             key={ContentTeam.name}
             onMouseEnter={() => setHoveredIndex(ContentTeam.id)}
             onMouseLeave={() => setHoveredIndex(null)}
@@ -278,11 +278,11 @@ const AnimatedTooltip = () => {
           Devfolio Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly mb-24 mt-20">
+      <div className="flex flex-wrap justify-evenly m-10">
 
         {DevfolioTeam.map((DevfolioTeam) => (
           <div
-            className="-mr-4 relative group cursor-pointer"
+            className="-mr-4 relative group cursor-pointer mt-20"
             key={DevfolioTeam.name}
             onMouseEnter={() => setHoveredIndex(DevfolioTeam.id)}
             onMouseLeave={() => setHoveredIndex(null)}
@@ -336,11 +336,11 @@ const AnimatedTooltip = () => {
           Sponsor Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly mb-24 mt-20">
+      <div className="flex flex-wrap justify-evenly m-10">
 
         {SponsorshipTeam.map((SponsorTeam) => (
           <div
-            className="-mr-4 relative group cursor-pointer"
+            className="-mr-4 relative group cursor-pointer mt-20"
             key={SponsorTeam.name}
             onMouseEnter={() => setHoveredIndex(SponsorTeam.id)}
             onMouseLeave={() => setHoveredIndex(null)}
@@ -394,11 +394,11 @@ const AnimatedTooltip = () => {
           Operational Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly mt-20">
+      <div className="flex flex-wrap justify-evenly m-10">
 
         {OperationalTeam.map((OperationalTeam) => (
           <div
-            className="-mr-4 relative group cursor-pointer "
+            className="-mr-4 relative group cursor-pointer mt-20"
             key={OperationalTeam.name}
             onMouseEnter={() => setHoveredIndex(OperationalTeam.id)}
             onMouseLeave={() => setHoveredIndex(null)}
