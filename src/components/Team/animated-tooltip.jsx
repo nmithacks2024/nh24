@@ -40,86 +40,71 @@ const AnimatedTooltip = () => {
           Technical Team
         </h1>
       </div>
-      <div>
-        <TeamCarosel />
-      </div>
-      <div className="flex flex-wrap justify-evenly m-20">
+      
+   
+      <div className="flex flex-wrap justify-evenly mb-24">
+
+{TechTeam.map((TechTeam) => (
+  <div
+    className="-mr-4 relative group cursor-pointer mt-20"
+    key={TechTeam.name}
+    onMouseEnter={() => setHoveredIndex(TechTeam.id)}
+    onMouseLeave={() => setHoveredIndex(null)}
+  >
+    {hoveredIndex === TechTeam.id && (
+      <motion.div
+        initial={{ opacity: 0, y: 20, scale: 0.6 }}
+        animate={{
+          opacity: 1,
+          y: 0,
+          scale: 1,
+          transition: {
+            type: "spring",
+            stiffness: 260,
+            damping: 10,
+          },
+        }}
+        exit={{ opacity: 0, y: 20, scale: 0.6 }}
+        style={{
+          translateX: translateX,
+          rotate: rotate,
+          whiteSpace: "nowrap",
+        }}
+        className="absolute -top-16 -left-1/2 translate-x-1/2 flex text-xs flex-col items-center justify-center rounded-md bg-black z-50 shadow-xl px-4 py-2"
+      >
+        <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-[5px] " />
+        <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] " />
+        <div className="font-bold text-[1.25rem] text-secondary relative z-30 text-base">
+          {TechTeam.name}
+        </div>
+        <div className="text-white text-[1rem]">{TechTeam.designation}</div>
+      </motion.div>
+    )}
+
+    <img
+      onMouseMove={handleMouseMove}
+      height={200}
+      width={200}
+      src={TechTeam.img}
+      alt={TechTeam.name}
+      className="object-cover !m-0 !p-0 object-top rounded-full h-36 w-36 border-2 group-hover:scale-105 group-hover:z-30 border-white relative transition duration-500"
+    />
+  </div>
+
+
+))}
+</div>
         <div>
-          previous
+        
         </div>
-        <div>
-          {TechTeam.map((TechTeam) => (
-            <CardWrapper>
-              {/* <div
-              className="-mr-4 relative group cursor-pointer"
-              key={TechTeam.name}
-              onMouseEnter={() => setHoveredIndex(TechTeam.id)}
-              onMouseLeave={() => setHoveredIndex(null)}
-            >
-              {hoveredIndex === TechTeam.id && (
-                <motion.div
-                  initial={{ opacity: 0, y: 20, scale: 0.6 }}
-                  animate={{
-                    opacity: 1,
-                    y: 0,
-                    scale: 1,
-                    transition: {
-                      type: "spring",
-                      stiffness: 260,
-                      damping: 10,
-                    },
-                  }}
-                  exit={{ opacity: 0, y: 20, scale: 0.6 }}
-                  style={{
-                    translateX: translateX,
-                    rotate: rotate,
-                    whiteSpace: "nowrap",
-                  }}
-                  className="absolute -top-16 -left-1/2 translate-x-1/2 flex text-xs flex-col TechTeams-center justify-center rounded-md bg-black z-50 shadow-xl px-4 py-2"
-                >
-                  <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
-                  <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px " />
-                  <div className="font-bold text-[20px] text-secondary relative z-30 text-base">
-                    {TechTeam.name}
-                  </div>
-                  <div className="text-white text-xs">{TechTeam.designation}</div>
-                </motion.div>
-              )} */}
-
-              <img
-                onMouseMove={handleMouseMove}
-                height={200}
-                width={200}
-                src={TechTeam.img}
-                alt={TechTeam.name}
-                // "object-cover !m-0 !p-0 object-top rounded-3xl h-36 w-36 border-2 group-hover:scale-105 group-hover:z-30 border-white relative transition duration-500"
-                className="object-contain rounded-3xl w-[60%]"
-              />
-              {/* </div> */}
-
-              <div className="text-white flex flex-col gap-5">
-                <p className="font-bold text-2xl">
-                  Rachit Agarwal
-                </p>
-                <p className="text-xl">
-                  Team Team Core
-                </p>
-              </div>
-
-            </CardWrapper>
-          ))}
-        </div>
-        <div className="border-2 text-white rounded-3xl p-5 h-fit">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40" focusable="false"><path d="m15.5 0.932-4.3 4.38 14.5 14.6-14.5 14.5 4.3 4.4 14.6-14.6 4.4-4.3-4.4-4.4-14.6-14.6z"></path></svg>
-        </div>
-      </div>
-      Design
-      <div>
-        <h1 className="text-white text-4xl font-bold text-center mb-24">
+    
+      {/* Design */}
+      <div  className="flex items-center justify-center">
+        <h1 className="text-white text-5xl font-bold text-center w-fit border border-3 px-20 py-10 rounded-3xl border-white">
           Design Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly mb-24">
+      <div className="flex flex-wrap justify-evenly mb-24 mt-20">
 
         {DesignTeam.map((DesignTeam) => (
           <div
@@ -151,10 +136,10 @@ const AnimatedTooltip = () => {
               >
                 <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
                 <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px " />
-                <div className="font-bold text-[20px] text-secondary relative z-30 text-base">
+                <div className="font-bold text-[1.25rem] text-secondary relative z-30 text-base">
                   {DesignTeam.name}
                 </div>
-                <div className="text-white text-xs">{DesignTeam.designation}</div>
+                <div className="text-white text-[1rem]">{DesignTeam.designation}</div>
               </motion.div>
             )}
 
@@ -172,12 +157,12 @@ const AnimatedTooltip = () => {
         ))}
       </div>
       {/* Social Media */}
-      <div>
-        <h1 className="text-white text-4xl font-bold text-center mb-24">
+      <div className="flex items-center justify-center">
+        <h1 className="text-white text-5xl font-bold text-center w-fit border border-3 px-20 py-10 rounded-3xl border-white">
           Social Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly mb-24">
+      <div className="flex flex-wrap justify-evenly mb-24 mt-20">
 
         {SocialMediaTeam.map((SocialmediaTeam) => (
           <div
@@ -209,10 +194,10 @@ const AnimatedTooltip = () => {
               >
                 <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
                 <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px " />
-                <div className="font-bold text-[20px] text-secondary relative z-30 text-base">
+                <div className="font-bold text-[1.25rem] text-secondary relative z-30 text-base">
                   {SocialmediaTeam.name}
                 </div>
-                <div className="text-white text-xs">{SocialmediaTeam.designation}</div>
+                <div className="text-white text-[1rem]">{SocialmediaTeam.designation}</div>
               </motion.div>
             )}
 
@@ -230,12 +215,12 @@ const AnimatedTooltip = () => {
         ))}
       </div>
       {/* content */}
-      <div>
-        <h1 className="text-white text-4xl font-bold text-center mb-24">
+      <div className="flex items-center justify-center">
+        <h1 className="text-white text-5xl font-bold text-center w-fit border border-3 px-20 py-10 rounded-3xl border-white">
           Content Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly mb-24">
+      <div className="flex flex-wrap justify-evenly mb-24 mt-20">
 
         {ContentTeam.map((ContentTeam) => (
           <div
@@ -265,12 +250,12 @@ const AnimatedTooltip = () => {
                 }}
                 className="absolute -top-16 -left-1/2 translate-x-1/2 flex text-xs flex-col ContentTeams-center justify-center rounded-md bg-black z-50 shadow-xl px-4 py-2"
               >
-                <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
+                <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent  " />
                 <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px " />
-                <div className="font-bold text-[20px] text-secondary relative z-30 text-base">
+                <div className="font-bold text-[1.25rem] text-secondary relative z-30 text-base">
                   {ContentTeam.name}
                 </div>
-                <div className="text-white text-xs">{ContentTeam.designation}</div>
+                <div className="text-white text-[]1rem">{ContentTeam.designation}</div>
               </motion.div>
             )}
 
@@ -288,12 +273,12 @@ const AnimatedTooltip = () => {
         ))}
       </div>
       {/* Devfolio */}
-      <div>
-        <h1 className="text-white text-4xl font-bold text-center mb-24">
+      <div className="flex items-center justify-center">
+        <h1 className="text-white text-5xl font-bold text-center w-fit border border-3 px-20 py-10 rounded-3xl border-white">
           Devfolio Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly mb-24">
+      <div className="flex flex-wrap justify-evenly mb-24 mt-20">
 
         {DevfolioTeam.map((DevfolioTeam) => (
           <div
@@ -325,10 +310,10 @@ const AnimatedTooltip = () => {
               >
                 <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
                 <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px " />
-                <div className="font-bold text-[20px] text-secondary relative z-30 text-base">
+                <div className="font-bold text-[1.25rem] text-secondary relative z-30 text-base">
                   {DevfolioTeam.name}
                 </div>
-                <div className="text-white text-xs">{DevfolioTeam.designation}</div>
+                <div className="text-white text-[1rem]">{DevfolioTeam.designation}</div>
               </motion.div>
             )}
 
@@ -346,12 +331,12 @@ const AnimatedTooltip = () => {
         ))}
       </div>
       {/* Sponsors */}
-      <div>
-        <h1 className="text-white text-4xl font-bold text-center mb-24">
+      <div className="flex items-center justify-center">
+        <h1 className="text-white text-5xl font-bold text-center w-fit border border-3 px-20 py-10 rounded-3xl border-white">
           Sponsor Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly mb-24">
+      <div className="flex flex-wrap justify-evenly mb-24 mt-20">
 
         {SponsorshipTeam.map((SponsorTeam) => (
           <div
@@ -383,10 +368,10 @@ const AnimatedTooltip = () => {
               >
                 <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
                 <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px " />
-                <div className="font-bold text-[20px] text-secondary relative z-30 text-base">
+                <div className="font-bold text-[1.25rem] text-secondary relative z-30 text-base">
                   {SponsorTeam.name}
                 </div>
-                <div className="text-white text-xs">{SponsorTeam.designation}</div>
+                <div className="text-white text-[1rem]">{SponsorTeam.designation}</div>
               </motion.div>
             )}
 
@@ -404,12 +389,12 @@ const AnimatedTooltip = () => {
         ))}
       </div>
       {/* ops */}
-      <div>
-        <h1 className="text-white text-4xl font-bold text-center mb-24 ">
+      <div className="flex items-center justify-center">
+        <h1 className="text-white text-5xl font-bold text-center w-fit border border-3 px-20 py-10 rounded-3xl border-white ">
           Operational Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly mb-24">
+      <div className="flex flex-wrap justify-evenly mt-20">
 
         {OperationalTeam.map((OperationalTeam) => (
           <div
@@ -441,10 +426,10 @@ const AnimatedTooltip = () => {
               >
                 <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
                 <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px " />
-                <div className="font-bold text-[20px] text-secondary relative z-30 text-base">
+                <div className="font-bold text-[1.25rem] text-secondary relative z-30 text-base">
                   {OperationalTeam.name}
                 </div>
-                <div className="text-white text-xs">{OperationalTeam.designation}</div>
+                <div className="text-white text-[1rem]">{OperationalTeam.designation}</div>
               </motion.div>
             )}
 

@@ -58,6 +58,11 @@ export const DesignTeam=[
         img: LoviaEB,
     },
     {
+        name:"Shravan",
+        designation:"Design Team Core",
+        img:Shravan_,
+    },
+    {
         id: 6,
         name: "Vikitha",
         designation: "Design Team Mentor",
@@ -71,6 +76,11 @@ export const SponsorshipTeam=[
         name: "Ankith",
         designation: "Sponsorship Team Head",
         img: Ankith__,
+    },
+    {
+        name:"Sai Uttej",
+        designation:"Sponsorship Team Core",
+        img:Sai_uttej,
     },
     {
         id: 8,
@@ -145,18 +155,20 @@ export const SocialMediaTeam=[
         designation: "Social Media Team Head",
         img: Huvishka,
     },
-    {
-        id: 18,
-        name: "Sai Uttej",
-        designation: "Social Media Team Core",
-        img: Sai_uttej,
-    },
+   
     {
         id: 19,
         name: "Smitha",
         designation: "Social Media Team Mentor",
         img: Smitha,
     },
+    {
+        id: 20,
+        name: "Rohan N",
+        designation: "Social Media Team Mentor",
+        img: Rohan_N,
+    },
+    
 ]
 
 export const CoreTeam=[

@@ -45,9 +45,9 @@ const App = () => (
         <div className="sec bg-primary" id="sponsors">
           <Sponsors />
         </div>
-        {/* <div className="sec bg-primary" id="sponsors">
+        <div className="sec bg-primary" id="teams">
           <AnimatedTooltip />
-        </div> */}
+        </div>
         <div className="sec bg-primary" id="faq">
           <FAQ />
         </div>
