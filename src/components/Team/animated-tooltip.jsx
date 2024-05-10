@@ -36,17 +36,17 @@ const AnimatedTooltip = () => {
         </h1>
       </Reveal>
       <div className="flex items-center justify-center">
-        <h1 className="text-white text-5xl font-bold text-center w-fit border border-3 px-20 py-10 rounded-3xl border-white">
+        <h1 className="text-white text-5xl font-bold text-center w-fit border border-1 px-10 py-10 rounded-3xl border-white">
           Technical Team
         </h1>
       </div>
       
    
-      <div className="flex flex-wrap justify-evenly m-10">
+      <div className="flex xl:flex-row lg:flex-row flex-col items-center justify-evenly m-10 mb-20">
 
 {TechTeam.map((TechTeam) => (
   <div
-    className="-mr-4 relative group cursor-pointer mt-20"
+    className="-mr-4 relative group cursor-pointer  mt-16"
     key={TechTeam.name}
     onMouseEnter={() => setHoveredIndex(TechTeam.id)}
     onMouseLeave={() => setHoveredIndex(null)}
@@ -100,15 +100,15 @@ const AnimatedTooltip = () => {
     
       {/* Design */}
       <div  className="flex items-center justify-center">
-        <h1 className="text-white text-5xl font-bold text-center w-fit border border-3 px-20 py-10 rounded-3xl border-white">
+        <h1 className="text-white text-5xl font-bold text-center w-fit border border-1 px-10 py-10 rounded-3xl border-white">
           Design Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly m-10">
+      <div className="flex xl:flex-row lg:flex-row flex-col items-center justify-evenly m-10 mb-20">
 
         {DesignTeam.map((DesignTeam) => (
           <div
-            className="-mr-4 relative group cursor-pointer mt-20"
+            className="-mr-4 relative group cursor-pointer mt-16"
             key={DesignTeam.name}
             onMouseEnter={() => setHoveredIndex(DesignTeam.id)}
             onMouseLeave={() => setHoveredIndex(null)}
@@ -158,15 +158,15 @@ const AnimatedTooltip = () => {
       </div>
       {/* Social Media */}
       <div className="flex items-center justify-center">
-        <h1 className="text-white text-5xl font-bold text-center w-fit border border-3 px-20 py-10 rounded-3xl border-white">
+        <h1 className="text-white text-5xl font-bold text-center w-fit border border-1 px-10 py-10 rounded-3xl border-white">
           Social Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly m-10">
+      <div className="flex xl:flex-row lg:flex-row flex-col items-center justify-evenly m-10 mb-20">
 
         {SocialMediaTeam.map((SocialmediaTeam) => (
           <div
-            className="-mr-4 relative group cursor-pointer mt-20"
+            className="-mr-4 relative group cursor-pointer  mt-16"
             key={SocialmediaTeam.name}
             onMouseEnter={() => setHoveredIndex(SocialmediaTeam.id)}
             onMouseLeave={() => setHoveredIndex(null)}
@@ -216,15 +216,15 @@ const AnimatedTooltip = () => {
       </div>
       {/* content */}
       <div className="flex items-center justify-center">
-        <h1 className="text-white text-5xl font-bold text-center w-fit border border-3 px-20 py-10 rounded-3xl border-white">
+        <h1 className="text-white text-5xl font-bold text-center w-fit border border-1 px-10 py-10 rounded-3xl border-white">
           Content Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly m-10">
+      <div className="flex xl:flex-row lg:flex-row flex-col items-center justify-evenly m-10 mb-20">
 
         {ContentTeam.map((ContentTeam) => (
           <div
-            className="-mr-4 relative group cursor-pointer mt-20"
+            className="-mr-4 relative group cursor-pointer  mt-16"
             key={ContentTeam.name}
             onMouseEnter={() => setHoveredIndex(ContentTeam.id)}
             onMouseLeave={() => setHoveredIndex(null)}
@@ -274,15 +274,15 @@ const AnimatedTooltip = () => {
       </div>
       {/* Devfolio */}
       <div className="flex items-center justify-center">
-        <h1 className="text-white text-5xl font-bold text-center w-fit border border-3 px-20 py-10 rounded-3xl border-white">
+        <h1 className="text-white text-5xl font-bold text-center w-fit border border-1 px-10 py-10 rounded-3xl border-white">
           Devfolio Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly m-10">
+      <div className="flex xl:flex-row lg:flex-row flex-col items-center justify-evenly m-10 mb-20">
 
         {DevfolioTeam.map((DevfolioTeam) => (
           <div
-            className="-mr-4 relative group cursor-pointer mt-20"
+            className="-mr-4 relative group cursor-pointer  mt-16"
             key={DevfolioTeam.name}
             onMouseEnter={() => setHoveredIndex(DevfolioTeam.id)}
             onMouseLeave={() => setHoveredIndex(null)}
@@ -332,15 +332,15 @@ const AnimatedTooltip = () => {
       </div>
       {/* Sponsors */}
       <div className="flex items-center justify-center">
-        <h1 className="text-white text-5xl font-bold text-center w-fit border border-3 px-20 py-10 rounded-3xl border-white">
+        <h1 className="text-white text-5xl font-bold text-center w-fit border border-1 px-10 py-10 rounded-3xl border-white">
           Sponsor Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly m-10">
+      <div className="flex xl:flex-row lg:flex-row flex-col items-center justify-evenly m-10 mb-20">
 
         {SponsorshipTeam.map((SponsorTeam) => (
           <div
-            className="-mr-4 relative group cursor-pointer mt-20"
+            className="-mr-4 relative group cursor-pointer  mt-16"
             key={SponsorTeam.name}
             onMouseEnter={() => setHoveredIndex(SponsorTeam.id)}
             onMouseLeave={() => setHoveredIndex(null)}
@@ -390,15 +390,15 @@ const AnimatedTooltip = () => {
       </div>
       {/* ops */}
       <div className="flex items-center justify-center">
-        <h1 className="text-white text-5xl font-bold text-center w-fit border border-3 px-20 py-10 rounded-3xl border-white ">
+        <h1 className="text-white text-5xl font-bold text-center border border-1 px-10 py-10 rounded-3xl border-white">
           Operational Team
         </h1>
       </div>
-      <div className="flex flex-wrap justify-evenly m-10">
+      <div className="flex xl:flex-row lg:flex-row flex-col items-center justify-evenly m-10 mb-20">
 
         {OperationalTeam.map((OperationalTeam) => (
           <div
-            className="-mr-4 relative group cursor-pointer mt-20"
+            className="-mr-4 relative group cursor-pointer mt-16"
             key={OperationalTeam.name}
             onMouseEnter={() => setHoveredIndex(OperationalTeam.id)}
             onMouseLeave={() => setHoveredIndex(null)}
