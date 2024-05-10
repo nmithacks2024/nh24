@@ -87,6 +87,9 @@ const Hero = () => {
           data-button-theme="dark"
           style={{ height: "44px", width: "312px" }}
         ></div>
+        <div className="text-[#f84611] font-bold xxs:mt-[-100px] flex flex-col items-center">
+          <span>Note:-</span> Selected teams will be announced soon
+        </div>
       </div>
 
       {/* Hero Content */}

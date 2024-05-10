@@ -241,7 +241,7 @@ function Footer() {
               hackathon@nmit.ac.in
             </a>
           </div>
-          <div className="text-center mb-5">
+          {/* <div className="text-center mb-5">
             {memberName === null ? (
               <div>Made with 🧡 By NMIT Hacks </div>
             ) : (
@@ -254,16 +254,16 @@ function Footer() {
                 <p>{memberName.position}</p>
               </div>
             )}
-          </div>
+          </div> */}
         </div>
-        <div className="w-[90%] mx-auto">
+        {/* <div className="w-[90%] mx-auto">
           <InfiniteLooper
             memberName={memberName}
             onHover={onHover}
             getMemberName={getMemberName}
             memberArray={memberArray}
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
