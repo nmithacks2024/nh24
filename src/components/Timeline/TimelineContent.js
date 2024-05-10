@@ -1,11 +1,11 @@
-// import {logo} from "../../../public/assets/logo.png";
-// import {logo2} from "../../../public/assets/logo2.png";
+import { logo } from "../../../public/assets/index.js"
+import { logo2 } from "../../../public/assets/index.js"
 
 export const Day1 = [
   {
     title: "Check-in",
     company_name: "",
-    icon: "../../../public/assets/logo.png",
+    icon: logo,
     iconBg: "#383E56",
     date: "12:30 PM",
     points: [
@@ -16,7 +16,7 @@ export const Day1 = [
   {
     title: "Inauguration",
     company_name: "Sir M Visvesvarya Auditorium",
-    icon: "../../../public/assets/logo2.png",
+    icon: logo2,
     iconBg: "#E6DEDD",
     date: "2:30 PM",
     points: [
@@ -26,7 +26,7 @@ export const Day1 = [
   {
     title: "Snacks",
     company_name: "",
-    icon: "../../../public/assets/logo.png",
+    icon: logo,
     iconBg: "#383E56",
     date: "4:00 - 4:30 PM",
     points: [
@@ -36,7 +36,7 @@ export const Day1 = [
   {
     title: "Hack Begins",
     company_name: "CSE LABS",
-    icon: "../../../public/assets/logo2.png",
+    icon: logo2,
     iconBg: "#E6DEDD",
     date: "4:30 PM",
     points: [
@@ -46,7 +46,7 @@ export const Day1 = [
   {
     title: "Mentoring Session 1",
     company_name: "CSE LABS",
-    icon: "../../../public/assets/logo.png",
+    icon: logo,
     iconBg: "#383E56",
     date: "7:00 - 9:00 PM",
     points: [
@@ -56,7 +56,7 @@ export const Day1 = [
   {
     title: "Dinner",
     company_name: "Annapoorna Mess",
-    icon: "../../../public/assets/logo2.png",
+    icon: logo2,
     iconBg: "#E6DEDD",
     date: "8:00 PM",
     points: [
@@ -69,7 +69,7 @@ export const Day2 = [
   {
     title: "Breakfast",
     company_name: "Annapoorna Mess",
-    icon: "../../../public/assets/logo.png",
+    icon: logo,
     iconBg: "#E6DEDD",
     date: "8:00 AM",
     points: [
@@ -78,7 +78,7 @@ export const Day2 = [
   {
     title: "Lunch",
     company_name: "Annapoorna Mess",
-    icon: "../../../public/assets/logo2.png",
+    icon: logo2,
     iconBg: "#E6DEDD",
     date: "1:30 PM",
     points: [
@@ -87,7 +87,7 @@ export const Day2 = [
   {
     title: "Partner Session",
     company_name: "APJ Abdul Kalam Seminar Hall",
-    icon: "../../../public/assets/logo.png",
+    icon: logo,
     iconBg: "#383E56",
     date: "3:00 PM",
     points: [
@@ -97,7 +97,7 @@ export const Day2 = [
   {
     title: "Snacks",
     company_name: "",
-    icon: "../../../public/assets/logo2.png",
+    icon: logo2,
     iconBg: "#E6DEDD",
     date: "4:00 - 4:30 PM",
     points: [
@@ -107,7 +107,7 @@ export const Day2 = [
   {
     title: "Mentoring Session 2",
     company_name: "CSE LABS",
-    icon: "../../../public/assets/logo.png",
+    icon: logo,
     iconBg: "#E6DEDD",
     date: "7:00 - 9:00 PM",
     points: [
@@ -117,7 +117,7 @@ export const Day2 = [
   {
     title: "Dinner",
     company_name: "Annapoorna Mess",
-    icon: "../../../public/assets/logo2.png",
+    icon: logo2,
     iconBg: "#E6DEDD",
     date: "8:00 PM",
     points: [
@@ -130,7 +130,7 @@ export const Day3 = [
   {
     title: "Breakfast",
     company_name: "Annapoorna Mess",
-    icon: "../../../public/assets/logo.png",
+    icon: logo,
     iconBg: "#E6DEDD",
     date: "8:00 AM",
     points: [
@@ -140,7 +140,7 @@ export const Day3 = [
   {
     title: "Preliminary Evaluation Round",
     company_name: "CSE Labs",
-    icon: "../../../public/assets/logo2.png",
+    icon: logo2,
     iconBg: "#383E56",
     date: "8:30 - 10:30 AM",
     points: [
@@ -150,7 +150,7 @@ export const Day3 = [
   {
     title: "Final Project Submission",
     company_name: "Devfolio",
-    icon: "../../../public/assets/logo.png",
+    icon: logo,
     iconBg: "#E6DEDD",
     date: "11:00 AM",
     points: [
@@ -160,7 +160,7 @@ export const Day3 = [
   {
     title: "Lunch",
     company_name: "Annapoorna Mess",
-    icon: "../../../public/assets/logo2.png",
+    icon: logo2,
     iconBg: "#383E56",
     date: "12:00 PM",
     points: [
@@ -170,7 +170,7 @@ export const Day3 = [
   {
     title: "Announcement of Top 10 Projects",
     company_name: "",
-    icon: "../../../public/assets/logo.png",
+    icon: logo,
     iconBg: "#E6DEDD",
     date: "1:00 PM",
     points: [
@@ -180,7 +180,7 @@ export const Day3 = [
   {
     title: "Final Evaluation Round",
     company_name: "APJ Abdul Kalam Seminar Hall",
-    icon: "../../../public/assets/logo2.png",
+    icon: logo2,
     iconBg: "#E6DEDD",
     date: "1:30 PM",
     points: [
@@ -190,7 +190,7 @@ export const Day3 = [
   {
     title: "Vote of Thanks",
     company_name: "APJ Abdul Kalam Seminar Hall",
-    icon: "../../../public/assets/logo.png",
+    icon: logo,
     iconBg: "#E6DEDD",
     date: "4:30 PM",
     points: [

@@ -29,6 +29,8 @@ import Ankith__ from './svg/Ankith__.svg'
 import Arnav from './svg/Arnav.svg'
 import Ashwin from './svg/Ashwin1.svg'
 import Huvishka from './svg/Huvishka.svg'
+// import logo from "./logo.png";
+// import logo2 from "./logo2.png";
 import Karthik from './svg/Karthik.svg'
 import LoviaEB from './svg/LoviaEB.svg'
 import Nitin from './svg/Nitin.svg'
