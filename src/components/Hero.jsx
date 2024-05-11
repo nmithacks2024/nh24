@@ -81,16 +81,16 @@ const Hero = () => {
           })}
         </div>
 
-        <div
-          className="apply-button devfolio"
-          data-hackathon-slug="nmithacks24"
-          data-button-theme="dark"
-          style={{ height: "44px", width: "312px" }}
-        ></div>
-        <div className="text-[#f84611] font-bold xxs:mt-[-100px] flex flex-col items-center">
-          <span>Note:-</span> Selected teams will be announced soon
+       
+        <div className="text-[#f84611] lg:text-[30px] sm:text-[29px] xs:text-[21px] xxs:text-[12px] font-bold xxs:mt-[-50px] flex flex-col items-center justify-center">
+          <span>Note:-</span><div className="items-center justify-center text-center"> Results are out!  <br/> Check your emails with fingers crossed!🤞🏽
+          </div>
+        
         </div>
+       
       </div>
+    
+      
 
       {/* Hero Content */}
       <div
@@ -126,7 +126,7 @@ const Hero = () => {
           <div className="py-10 lg:py-5 sm:py-5">
             <CountDown />
           </div>
-          <div className="flex flex-col justify-center items-center mt-10">
+          {/* <div className="flex flex-col justify-center items-center mt-10">
             <div className="text-white mb-5 text-center">
               To view our Core Members of this club please click on the below 👇 button
             </div>
@@ -135,7 +135,7 @@ const Hero = () => {
                 <img src="/assets/next.svg" alt="" />
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
