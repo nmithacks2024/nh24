@@ -5,6 +5,7 @@ import {
     xyz,
     OxDay,
     TheDevArmy,
+    SandLogic,
     axure,
     blockchainIndia,
     axure2,
@@ -27,13 +28,18 @@ export const GoldSponsors = [
         URL: "https://ethindia.co/"
     },
     {
+        imageUrl : SandLogic,
+        name: "SandLogic",
+        URL: "https://www.sandlogic.com/"
+    },
+    {
         imageUrl: Polygon,
         name: "POLYGON LOGO",
         URL: "https://polygon.technology/"
     },
     {
         imageUrl: OxDay,
-        name: "0x",
+        name: "0xDay",
         URL: "https://0x.org/"
         
     }
