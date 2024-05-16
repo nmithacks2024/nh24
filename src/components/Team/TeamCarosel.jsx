@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from 'react';
+import React, { Component, useState, useEffect, useRef } from 'react';
 import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
@@ -50,17 +50,20 @@ function TeamCarosel() {
     }
     return (
         <Carousel
-            className='arrow-control'
+            preventMovementUntilSwipeScrollTolerance={true}
+            swipeScrollTolerance={50}
             renderArrowPrev={renderArrowPrev}
             renderArrowNext={renderArrowNext}
             autoPlay={!pauseLoop}
             stopOnHover={pauseLoop}
+            swipeable
+            emulateTouch={true}
             infiniteLoop
             showStatus={false}
             interval={2500}
         >
             <div className="flex flex-wrap justify-center items-center my-16 flex-col gap-10">
-                <div className='text-4xl my-20 text-white px-5 py-3 justify-center text-center rounded-xl w-fit flex font-bold border border-1 border-white'>
+                <div className='text-4xl my-10 text-white px-5 py-3 justify-center text-center rounded-xl w-fit flex font-bold border border-1 border-white'>
                     Tech Team
                 </div>
                 <div className='flex justify-center items-center xl:gap-10 md:gap-5 lg:gap-7 sm:gap-4 xs:gap-4 xxs:gap-2 flex-wrap'>
@@ -107,7 +110,7 @@ function TeamCarosel() {
                 </div>
             </div>
             <div className="flex flex-wrap justify-center items-center my-16 flex-col gap-10">
-                <div className='text-4xl my-20 text-white px-5 py-3 justify-center text-center rounded-xl w-fit flex font-bold border border-1 border-white'>
+                <div className='text-4xl my-10 text-white px-5 py-3 justify-center text-center rounded-xl w-fit flex font-bold border border-1 border-white'>
                     Operational Team
                 </div>
                 <div className='flex justify-center items-center xl:gap-10 md:gap-5 lg:gap-7 sm:gap-4 xs:gap-4 xxs:gap-2 flex-wrap'>
@@ -155,7 +158,7 @@ function TeamCarosel() {
                 </div>
             </div>
             <div className="flex flex-wrap justify-center items-center my-16 flex-col gap-10">
-                <div className='text-4xl my-20 text-white px-5 py-3 justify-center text-center rounded-xl w-fit flex font-bold border border-1 border-white'>
+                <div className='text-4xl my-10 text-white px-5 py-3 justify-center text-center rounded-xl w-fit flex font-bold border border-1 border-white'>
                     Design Team
                 </div>
                 <div className='flex justify-center items-center xl:gap-10 md:gap-5 lg:gap-7 sm:gap-4 xs:gap-4 xxs:gap-2 flex-wrap'>
@@ -203,7 +206,7 @@ function TeamCarosel() {
                 </div>
             </div>
             <div className="flex flex-wrap justify-center items-center my-16 flex-col gap-10">
-                <div className='text-4xl my-20 text-white px-5 py-3 justify-center text-center rounded-xl w-fit flex font-bold border border-1 border-white'>
+                <div className='text-4xl my-10 text-white px-5 py-3 justify-center text-center rounded-xl w-fit flex font-bold border border-1 border-white'>
                     Social Media Team
                 </div>
                 <div className='flex justify-center items-center xl:gap-10 md:gap-5 lg:gap-7 sm:gap-4 xs:gap-4 xxs:gap-2 flex-wrap'>
@@ -251,7 +254,7 @@ function TeamCarosel() {
                 </div>
             </div>
             <div className="flex flex-wrap justify-center items-center my-16 flex-col gap-10">
-                <div className='text-4xl my-20 text-white px-5 py-3 justify-center text-center rounded-xl w-fit flex font-bold border border-1 border-white'>
+                <div className='text-4xl my-10 text-white px-5 py-3 justify-center text-center rounded-xl w-fit flex font-bold border border-1 border-white'>
                     Content Team
                 </div>
                 <div className='flex justify-center items-center xl:gap-10 md:gap-5 lg:gap-7 sm:gap-4 xs:gap-4 xxs:gap-2 flex-wrap'>
@@ -299,7 +302,7 @@ function TeamCarosel() {
                 </div>
             </div>
             <div className="flex flex-wrap justify-center items-center my-16 flex-col gap-10">
-                <div className='text-4xl my-20 text-white px-5 py-3 justify-center text-center rounded-xl w-fit flex font-bold border border-1 border-white'>
+                <div className='text-4xl my-10 text-white px-5 py-3 justify-center text-center rounded-xl w-fit flex font-bold border border-1 border-white'>
                     Sponsorship Team
                 </div>
                 <div className='flex justify-center items-center xl:gap-10 md:gap-5 lg:gap-7 sm:gap-4 xs:gap-4 xxs:gap-2 flex-wrap'>
@@ -347,7 +350,7 @@ function TeamCarosel() {
                 </div>
             </div>
             <div className="flex flex-wrap justify-center items-center my-16 flex-col gap-10">
-                <div className='text-4xl my-20 text-white px-5 py-3 justify-center text-center rounded-xl w-fit flex font-bold border border-1 border-white'>
+                <div className='text-4xl my-10 text-white px-5 py-3 justify-center text-center rounded-xl w-fit flex font-bold border border-1 border-white'>
                     Devfolio Team
                 </div>
                 <div className='flex justify-center items-center xl:gap-10 md:gap-5 lg:gap-7 sm:gap-4 xs:gap-4 xxs:gap-2 flex-wrap'>
