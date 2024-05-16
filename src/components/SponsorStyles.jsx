@@ -15,27 +15,27 @@ export const CardWrapper = styled.div`
   text-align: center;
   @media (min-width: 716px) and (max-width: 739px) {
     padding:10px 5px;
-    width: 30vw;
+    width: 40vw;
     gap: 2px;
-    height:25vh;
+    height:40vh;
   }
   @media (min-width: 740px) and (max-width: 839px) {
     padding:20px 5px;
     width: 30vw;
     gap: 2px;
-    height:17vh;
+    height:22vh;
   }
 
   @media (min-width: 840px) and (max-width: 890px) {
     padding:10px 5px;
     width: 30vw;
     gap: 2px;
-    height:15vh;
+    height:20vh;
   }
   @media (min-width: 470px) and (max-width: 715px) {
     padding:10px 5px;
     width: 28vw;
-    height:20vh;
+    height:25vh;
   }
   @media (min-width: 291px) and (max-width: 469px) {
     width: 26vw;
@@ -44,18 +44,18 @@ export const CardWrapper = styled.div`
   @media (max-width: 290px) {
     padding:2px, 5px;
     width: 30vw;
-    height:15vh;
+    height:25vh;
   }
   @media (min-width: 891px) and (max-width: 1030px) {
     padding:2px 1px;
     width: 30vw;
-    height:18vh;
+    height:25vh;
   }
 
   @media (width: 1024px) and (height: 600px) {
     padding:2px 1px;
-    width: 30vw;
-    height:32vh;
+    width: 40vw;
+    height:42vh;
   }
 
 `;

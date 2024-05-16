@@ -121,7 +121,7 @@ export const DevfolioTeam=[
     {
         id: 13,
         name: "Karthik",
-        designation: "Devfolio Team Mentor",
+        designation: "Devfolio Team Head",
         img: Karthik,
     },
     {
