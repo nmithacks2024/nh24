@@ -9,7 +9,7 @@ export const CardWrapper = styled.div`
   width: 15rem;
   height:150px;
   padding:2px 10px;
-  border-radius: 18px;
+  border-radius: 5px;
   background-color: #ffffff33;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
   text-align: center;

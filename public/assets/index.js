@@ -43,6 +43,8 @@ import Rohan_N from "./svg/Rohan_N.svg";
 import Sai_uttej from "./svg/Sai_uttej.svg";
 import Shravan from "./svg/Shravan.svg";
 import Shravan_ from "./svg/Shravan_.svg";
+import left from "./left.png";
+import right from "./right.png";
 import Shreya from "./svg/shreya.svg";
 import Smitha from "./svg/Smitha.svg";
 import vikitha from "./svg/vikitha.svg";
@@ -61,6 +63,8 @@ export {
 	close,
 	echo3D,
 	facebook,
+	left,
+	right,
 	instagram,
 	linkedin,
 	twitter,

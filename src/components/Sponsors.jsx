@@ -1,6 +1,3 @@
-
-
-
 import Reveal from "./Reveal";
 import { SponsorIcon, PlatinumSponsors, GoldSponsors, SilverSponsors, CommunitySponsors } from "./index2";
 import { LazyLoadImage } from "react-lazy-load-image-component";

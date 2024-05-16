@@ -1,5 +1,5 @@
 import styles from "./style";
-
+import TeamCarosel from "./components/Team/TeamCarosel";
 import {
   AnimatedTooltip,
   Hero,
@@ -46,7 +46,8 @@ const App = () => (
           <Sponsors />
         </div>
         <div className="sec bg-primary" id="teams">
-          <AnimatedTooltip />
+          {/* <AnimatedTooltip /> */}
+          <TeamCarosel />
         </div>
         <div className="sec bg-primary" id="faq">
           <FAQ />
