@@ -36,7 +36,7 @@ export const TechTeam = [
 
     {
         id: 2,
-        name: "Rachit Agrawal",
+        name: "Rachit Agarwal",
         designation: "Tech Team Core",
         img: Rachit,
         linkedin:"https://www.linkedin.com/in/rachit-agarwal-540087262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
