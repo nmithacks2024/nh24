@@ -67,7 +67,7 @@ const Sponsors = () => {
                 <img
                   src={GoldSponsors.imageUrl}
                   alt={GoldSponsors.name}
-                  className="w-[60%] h-[60%] object-contain"
+                  className={`${GoldSponsors.name=="SandLogic" ? "w-[50%] h-[50%]" : " w-[90%] h-[90%]"} object-contain`}
                   
                 />
               </a>
@@ -114,7 +114,7 @@ const Sponsors = () => {
                 <img
                   src={CommunitySponsors.imageUrl}
                   alt={CommunitySponsors.name}
-                  className="w-[70%] h-[60%] object-contain"
+                  className={`${CommunitySponsors.name=="Blockchain India" ? "w-[90%] h-[90%]" : "w-[70%] h-[60%]"} object-contain`}
                 />
               </a>
             </CardWrapper>

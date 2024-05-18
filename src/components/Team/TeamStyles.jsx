@@ -12,7 +12,7 @@ export const CardWrapper = styled.div`
   gap:20px;
   padding:30px 1px;
   border-radius: 18px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #ffffff33;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
   text-align: center;
   @media (min-width: 470px) and (max-width: 715px) {

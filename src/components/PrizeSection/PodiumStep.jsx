@@ -4,9 +4,12 @@ import { motion } from 'framer-motion'
 
 export default function PodiumStep({ podium, winner, index }) {
     const colors = [
-        "bg-[#FFD700]",
-        "bg-[#C0C0C0]",
-        "bg-[#967444]"
+        "bg-[#ffffff33]",
+        "bg-[#ffffff33]",
+        "bg-[#ffffff33]"
+        // "bg-[#FFD700]",
+        // "bg-[#C0C0C0]",
+        // "bg-[#967444]"
     ];
 
     return (
