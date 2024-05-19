@@ -8,6 +8,7 @@ import {
     SandLogic,
     axure,
     blockchainIndia,
+    QuillAudit,
     axure2,
     wolfram,
     echo3D, 
@@ -73,6 +74,11 @@ export const SilverSponsors = [
         imageUrl:"https://assets.zyrosite.com/cdn-cgi/image//mePORKrXBzie3257/1st-1-m6L85Jy2PKtPZ4bp.png",
         name:"Give My Certificate",
         url: "https://givemycertificate.com/"
+    },
+    {
+        imageUrl: QuillAudit,   
+        name: "QuillAudit",
+        url: "https://quillaudits.com/"
     }
     
 ]
