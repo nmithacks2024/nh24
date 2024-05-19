@@ -8,6 +8,7 @@ import {
     SandLogic,
     axure,
     blockchainIndia,
+    CoinEx,
     QuillAudit,
     axure2,
     wolfram,
@@ -15,6 +16,13 @@ import {
 } from "../../public/assets/index.js";
 
 export const PlatinumSponsors = [
+    {
+        imageUrl: CoinEx,
+        name: "COINEX LOGO",
+        url: "https://www.coinex.com/",
+
+
+    },
     {
         imageUrl: Devfolio,
         name: "DEVFOLIO LOGO",

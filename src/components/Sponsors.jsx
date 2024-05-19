@@ -39,7 +39,7 @@ const Sponsors = () => {
             PLATINUM
           </div>
         </div>
-        <div className="w-[100%] mt-1 p-4 flex lg:flex-row md:flex-col sm:flex-row flex-wrap justify-evenly items-center">
+        <div className="w-[80%] mt-1 p-4 flex lg:flex-row md:flex-col sm:flex-row flex-wrap justify-evenly items-center">
           {PlatinumSponsors.map((PlatinumSponsors) => (
             <CardWrapper>
               <a href={PlatinumSponsors.URL} target="_blank" className="flex justify-center items-center">

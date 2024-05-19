@@ -55,6 +55,7 @@ import echo3D from "./echo3D.png";
 import TheDevArmy from "./theDevArmy.png";
 import SandLogic from "./sand logic-01.png";
 import QuillAudit from "./QuillAudits_Logo_(Horizontal_-_White).png";
+import CoinEx from './CoinEx logo - horizontal version (default color).png'	
 
 export {
 	logo,
@@ -82,6 +83,7 @@ export {
 	blockchain,
 	Devfolio,
 	Polygon,
+	CoinEx,
 	Nmit_Nitte_Logo,
 	xyz,
 	OxDay,
