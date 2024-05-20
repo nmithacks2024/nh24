@@ -55,7 +55,7 @@ const CountDown = () => {
     //   customDate.getMinutes(),
     //   customDate.getSeconds() + 1
     // );
-    const countDownDate = new Date('2024-05-24T14:30:00');
+    const countDownDate = new Date('2024-05-24T00:00:00');
     setInterval(() => {
       getTimeDifference(countDownDate.getTime());
     }, 1000);
