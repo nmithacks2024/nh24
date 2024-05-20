@@ -6,6 +6,8 @@ import {
     OxDay,
     TheDevArmy,
     SandLogic,
+    dimoHack2,
+    predatorLogo,
     axure,
     blockchainIndia,
     coinExLogo,
@@ -87,8 +89,21 @@ export const SilverSponsors = [
         imageUrl: QuillAudit,   
         name: "QuillAudit",
         URL: "https://quillaudits.com/"
+    },
+    {
+        imageUrl: dimoHack2,   
+        name: "Dimo Hack",
+        URL: "https://twitter.com/Dimo_Hack"
     }
     
+]
+
+export const drinkSponsors=[
+    {
+        imageUrl:predatorLogo,
+        name:"Predator Drinks",
+        URL:"https://www.predatorenergydrink.com/en/"
+    }
 ]
 
 export const CommunitySponsors = [

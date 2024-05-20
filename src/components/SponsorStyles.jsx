@@ -122,3 +122,63 @@ export const CardWrapper = styled.div`
     height:24vh;
   }
 `;
+
+
+export const CardWrapper2 = styled.div`
+  /* border:1px solid;
+  border-color:white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  height:180px;
+  padding:2px 10px;
+  border-radius: 5px;
+  background-color: #ffffff33;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  @media (min-width: 716px) and (max-width: 739px) {
+    padding:10px 5px;
+    width: 20rem;
+    gap: 2px;
+    height:10rem;
+  }
+  @media (min-width: 740px) and (max-width: 839px) {
+    padding:20px 5px;
+    width: 16rem;
+    gap: 2px;
+    height:8rem;
+  }
+
+  @media (min-width: 840px) and (max-width: 890px) {
+    padding:10px 5px;
+    width: 15rem;
+    gap: 2px;
+    height:7rem;
+  }
+  @media (min-width: 470px) and (max-width: 715px) {
+    padding:10px 5px;
+    width: 15rem;
+    height:7rem;
+  }
+  @media (min-width: 291px) and (max-width: 469px) {
+    width: 42vw;
+    height:11vh;
+  }
+  @media (max-width: 290px) {
+    padding:2px, 5px;
+    width: 35vw;
+    height:25vh;
+  }
+  @media (min-width: 891px) and (max-width: 1030px) {
+    padding:2px 1px;
+    width: 16rem;
+    height:8rem;
+  }
+
+  @media (width: 1024px) and (height: 600px) {
+    padding:2px 1px;
+    width: 22vw;
+    height:22vh;
+  }
+`;

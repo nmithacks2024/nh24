@@ -1,9 +1,9 @@
 import Reveal from "./Reveal";
-import { SponsorIcon, PlatinumSponsors, GoldSponsors, SilverSponsors, CommunitySponsors } from "./index2";
+import { SponsorIcon, PlatinumSponsors, GoldSponsors, SilverSponsors, CommunitySponsors, drinkSponsors } from "./index2";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import nh24_brochure from './NH-24.pdf';
 import "./hover.css"
-import { CardWrapper } from "./SponsorStyles";
+import { CardWrapper, CardWrapper2 } from "./SponsorStyles";
 const Sponsors = () => {
   // const onButtonClick = () => {
   //   const pdfUrl = "./nh24_brochure.pdf";
@@ -39,7 +39,7 @@ const Sponsors = () => {
             PLATINUM
           </div>
         </div>
-        <div className="w-[80%] mt-1 p-4 flex lg:flex-row md:flex-col sm:flex-row flex-wrap justify-evenly items-center">
+        <div className="w-[80%] mt-1 p-4 flex lg:flex-row md:flex-col sm:flex-row flex-wrap justify-center items-center gap-5">
           {PlatinumSponsors.map((PlatinumSponsors) => (
             <CardWrapper>
               <a href={PlatinumSponsors.URL} target="_blank" className="flex justify-center items-center">
@@ -96,7 +96,28 @@ const Sponsors = () => {
           ))}
         </div>
       </div>
-      {/* Community Parrtner */}
+      {/* Drinks Sponsors */}
+      <div className="py-2 flex flex-col justify-center items-center text-lg ml-auto">
+        <div className="text-white justify-center items-center font-brand-medium text-[2rem] md:text-[3rem] lg:text-[3rem] leading-normal  text-center">
+          <div className="hover-3 font-bold">
+            Drink Partner
+          </div>
+        </div>
+        <div className="w-[100%] mt-3 p-4 flex lg:flex-row md:flex-row sm:flex-row flex-wrap justify-center items-center gap-5">
+          {drinkSponsors.map((drinkSponsor) => (
+            <CardWrapper2>
+              <a href={drinkSponsor.URL} target="_blank" className="flex justify-center items-center">
+                <img
+                  src={drinkSponsor.imageUrl}
+                  alt={drinkSponsor.name}
+                  className="w-[95%] h-[95%] object-contain"
+                />
+              </a>
+            </CardWrapper2>
+          ))}
+        </div>
+      </div>
+      {/* Community Partner */}
       <div className="pt-3 flex flex-col justify-center items-center text-lg mx-auto">
         <div className="text-white flex text-center justify-center items-center mx-auto font-brand-medium text-[2rem] md:text-[3rem] lg:text-[3rem] leading-normal">
           <div className="hover-1 text-center flex justify-center items-center">

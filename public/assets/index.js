@@ -53,6 +53,8 @@ import Yuvika from "./svg/Yuvika.svg";
 import timeline from "./timelline.svg";
 import wolfram from "./wolfram_.png";
 import echo3D from "./echo3D.png";
+import predatorLogo from "./predatorLogo.png";
+import dimoHack2 from "./dimoHack2.png";
 import TheDevArmy from "./theDevArmy.png";
 import SandLogic from "./sand logic-01.png";
 import QuillAudit from "./QuillAudits_Logo_(Horizontal_-_White).png";
@@ -69,6 +71,8 @@ export {
 	QuillAudit,
 	left,
 	right,
+	dimoHack2,
+	predatorLogo,
 	coinExLogo,
 	instagram,
 	linkedin,
