@@ -56,7 +56,7 @@ import echo3D from "./echo3D.png";
 import TheDevArmy from "./theDevArmy.png";
 import SandLogic from "./sand logic-01.png";
 import QuillAudit from "./QuillAudits_Logo_(Horizontal_-_White).png";
-import CoinEx from './CoinEx logo - horizontal version (default color).png'
+import CoinEx from './coinex pic with blue dot.png'	
 
 export {
 	logo,
