@@ -7,6 +7,7 @@ import {
     Huvishka,
 
     Karthik,
+    linkedin,
     LoviaEB,
     Nitin,
     Pramod,
@@ -124,6 +125,8 @@ export const ContentTeam = [
         name: "Yuvika",
         designation: "Content Team Core",
         img: Yuvika,
+        linkedin:"https://www.linkedin.com/in/yuvika-singh-642b9b259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        instagram:"https://www.instagram.com/_.yuvika4._?igsh=MW45YnB5Ymx3aWVlMw=="
     },
     {
         id: 12,
@@ -173,6 +176,8 @@ export const SocialMediaTeam = [
         name: "Huvishka",
         designation: "Social Media Team Head",
         img: Huvishka,
+        linkedin:"https://www.linkedin.com/in/huvishka-s-reddy-863bb525b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        instagram:"https://www.instagram.com/huvishka_reddy?igsh=MXR2cTgxMTd3OWwzbQ=="
     },
 
     {
@@ -188,6 +193,8 @@ export const SocialMediaTeam = [
         name: "Rohan N",
         designation: "Social Media Team Mentor",
         img: Rohan_N,
+        linkedin:"https://www.linkedin.com/in/rohan-navale/",
+        instagram:"https://www.instagram.com/ronaka._/"
     },
 
 ]

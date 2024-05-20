@@ -15,6 +15,7 @@ import game from "./game.png";
 import oi from "./oi.png";
 import iot from "./iot.png";
 import blockchain from "./blockchain.png";
+import coinExLogo from "./coinExLogo.png";
 import EthIndia from "./ethindia-light.svg";
 import OxDay from "./OxDay.png";
 import blockchainIndia from "./blockchainIndia.png";
@@ -55,7 +56,7 @@ import echo3D from "./echo3D.png";
 import TheDevArmy from "./theDevArmy.png";
 import SandLogic from "./sand logic-01.png";
 import QuillAudit from "./QuillAudits_Logo_(Horizontal_-_White).png";
-import CoinEx from './CoinEx logo - horizontal version (default color).png'	
+import CoinEx from './CoinEx logo - horizontal version (default color).png'
 
 export {
 	logo,
@@ -68,6 +69,7 @@ export {
 	QuillAudit,
 	left,
 	right,
+	coinExLogo,
 	instagram,
 	linkedin,
 	twitter,
