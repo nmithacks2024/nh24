@@ -19,7 +19,7 @@ export const PlatinumSponsors = [
     {
         imageUrl: coinExLogo,
         name: "COINEX LOGO",
-        url: "https://www.coinex.com/",
+        URL: "https://www.coinex.com/en",
 
 
     },
@@ -81,12 +81,12 @@ export const SilverSponsors = [
     {
         imageUrl:"https://assets.zyrosite.com/cdn-cgi/image//mePORKrXBzie3257/1st-1-m6L85Jy2PKtPZ4bp.png",
         name:"Give My Certificate",
-        url: "https://givemycertificate.com/"
+        URL: "https://givemycertificate.com/"
     },
     {
         imageUrl: QuillAudit,   
         name: "QuillAudit",
-        url: "https://quillaudits.com/"
+        URL: "https://www.quillaudits.com/smart-contract-audit"
     }
     
 ]
