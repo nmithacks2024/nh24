@@ -15,6 +15,7 @@ import game from "./game.png";
 import oi from "./oi.png";
 import iot from "./iot.png";
 import blockchain from "./blockchain.png";
+import coinExLogo from "./coinExLogo.png";
 import EthIndia from "./ethindia-light.svg";
 import OxDay from "./OxDay.png";
 import blockchainIndia from "./blockchainIndia.png";
@@ -68,6 +69,7 @@ export {
 	QuillAudit,
 	left,
 	right,
+	coinExLogo,
 	instagram,
 	linkedin,
 	twitter,
