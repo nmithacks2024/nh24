@@ -60,7 +60,7 @@ function TeamCarosel() {
             emulateTouch={true}
             infiniteLoop
             showStatus={false}
-            interval={2500}
+            interval={2000}
         >
             <div className="flex flex-wrap justify-center items-center my-16 flex-col gap-10">
                 <div className='text-4xl my-10 text-white px-5 py-3 justify-center text-center rounded-xl w-fit flex font-bold border border-1 border-white'>
