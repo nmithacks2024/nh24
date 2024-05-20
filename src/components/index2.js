@@ -19,7 +19,7 @@ export const PlatinumSponsors = [
     {
         imageUrl: CoinEx,
         name: "COINEX LOGO",
-        url: "https://www.coinex.com/",
+        URL: "https://www.coinex.com/",
 
 
     },
@@ -86,7 +86,7 @@ export const SilverSponsors = [
     {
         imageUrl: QuillAudit,   
         name: "QuillAudit",
-        url: "https://quillaudits.com/"
+        URL: "https://quillaudits.com/"
     }
     
 ]
