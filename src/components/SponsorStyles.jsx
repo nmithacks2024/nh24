@@ -121,5 +121,4 @@ export const CardWrapper = styled.div`
     width: 18vw;
     height:24vh;
   }
-
 `;
