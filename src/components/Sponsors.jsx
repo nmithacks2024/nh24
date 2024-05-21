@@ -100,7 +100,7 @@ const Sponsors = () => {
       <div className="py-2 flex flex-col justify-center items-center text-lg ml-auto">
         <div className="text-white justify-center items-center font-brand-medium text-[2rem] md:text-[3rem] lg:text-[3rem] leading-normal  text-center">
           <div className="hover-3 font-bold">
-            Drink Partner
+            Energy Drink Partner
           </div>
         </div>
         <div className="w-[100%] mt-3 p-4 flex lg:flex-row md:flex-row sm:flex-row flex-wrap justify-center items-center gap-5">
