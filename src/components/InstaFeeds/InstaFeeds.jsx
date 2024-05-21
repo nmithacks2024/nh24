@@ -449,27 +449,62 @@ import React, { useEffect } from 'react';
 
 const ElfsightInstagramFeed = () => {
     useEffect(() => {
-        const elfsightScript = document.createElement('script');
-        elfsightScript.src = 'https://static.elfsight.com/platform/platform.js';
-        elfsightScript.defer = true;
-        document.body.appendChild(elfsightScript);
+
+        // const script = document.createElement('script');
+        // script.src = 'https://widget.taggbox.com/embed-lite.min.js';
+        // script.async = true;
+        // document.body.appendChild(script);
+
+        // return () => {
+        //     document.body.removeChild(script);
+        // };
+
+
+        // Append the Taggbox script to the document head
+        const script = document.createElement('script');
+        script.src = 'https://widget.taggbox.com/embed-lite.min.js';
+        script.async = true;
+        document.head.appendChild(script);
 
         return () => {
-            document.body.removeChild(elfsightScript);
+            // Cleanup the script when the component is unmounted
+            document.head.removeChild(script);
         };
+
+
+        // // Create a script element
+        // const script = document.createElement('script');
+        // script.src = "https://static.elfsight.com/platform/platform.js";
+        // script.defer = true;
+        // script.dataset.useServiceCore = true;
+
+        // // Append the script to the document body
+        // document.body.appendChild(script);
+
+        // // Clean up the script when the component is unmounted
+        // return () => {
+        //     document.body.removeChild(script);
+        // };
     }, []);
     return (
-        <div className=' mx-auto flex flex-col' style={{ width: '90%', marginX: 'auto', height: '100%', overflow: 'hidden', display: "flex", justifyContent: 'center', alignItems: 'center' }}>
+        <div className='w-[100%] h-[100%] mx-auto flex flex-col justify-start items-center'>
             <div className='py-10 flex justify-start items-start w-[100%]'>
                 <p className='text-6xl text-white'>Insta Feeds</p>
             </div>
             <div
-                class="elfsight-app-820da59c-d3c0-4fc0-a618-afc29f11884a"
+                className="taggbox"
+                style={{ width: '100%', height: '100%' }}
+                data-widget-id="155471"
+                data-tags="false">
+
+            </div>
+            {/* <div
+                className="elfsight-app-9c7ac327-d995-46a0-867c-28d6d25459ee"
                 data-elfsight-app-lazy
                 style={{ width: '100%', height: '100%' }}>
-            </div>
+            </div> */}
         </div>
-    );
+    )
 };
 
 export default ElfsightInstagramFeed;

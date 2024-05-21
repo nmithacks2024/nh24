@@ -33,9 +33,9 @@ const App = () => (
         <div className={`${styles.paddingY} bg-primary `} id="aboutus">
           <AboutUs />
         </div>
-        {/* <div className="sec bg-primary" id="sponsors">
+        <div className="sec bg-primary" id="sponsors">
           <InstaFeeds />
-        </div> */}
+        </div>
         <div className="sec bg-primary " id="tracks">
           <Tracks />
         </div>
