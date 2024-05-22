@@ -2,30 +2,29 @@ import React, { useEffect } from 'react';
 
 const ElfsightInstagramFeed = () => {
     useEffect(() => {
+        // Create and append the Elfsight script
         const script = document.createElement('script');
-        script.src = 'https://static.elfsight.com/platform/platform.js';
+        script.src = "https://static.elfsight.com/platform/platform.js";
         script.defer = true;
+        script.dataset.useServiceCore = true;
         document.body.appendChild(script);
-        const removeNoreferrerLinks = () => {
-            const elfsightApp = document.querySelector('.elfsight-app-9c7ac327-d995-46a0-867c-28d6d25459ee');
-            if (elfsightApp) {
-                const noreferrerLinks = elfsightApp.querySelectorAll('a[rel="noreferrer"]');
-                noreferrerLinks.forEach(link => {
-                    link.parentNode.removeChild(link);
-                });
-            }
+        // Remove the <a> tag with rel="noreferrer" after a delay to ensure the widget is loaded
+        const removeNoreferrerLink = () => {
+            setTimeout(() => {
+                const elfsightWidget = document.querySelector('.elfsight-app-9c7ac327-d995-46a0-867c-28d6d25459ee');
+                if (elfsightWidget) {
+                    const anchorTag = elfsightWidget.querySelector('a[rel="noreferrer"]');
+                    if (anchorTag) {
+                        anchorTag.remove();
+                    }
+                }
+            }, 1000); // Adjust the delay time as needed
         };
 
-        const observer = new MutationObserver(removeNoreferrerLinks);
-        const elfsightAppContainer = document.querySelector('.elfsight-app-9c7ac327-d995-46a0-867c-28d6d25459ee');
-        if (elfsightAppContainer) {
-            observer.observe(elfsightAppContainer, { childList: true, subtree: true });
-            removeNoreferrerLinks(); // Initial check in case the links are already present
-        }
-
+        // Add an event listener to ensure the removal script runs after the widget is loaded
+        script.addEventListener('load', removeNoreferrerLink);
         return () => {
             document.body.removeChild(script);
-            observer.disconnect();
         };
     }, []);
     return (
