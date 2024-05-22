@@ -3,26 +3,39 @@ import CircularProgress from '@mui/material/CircularProgress';
 const ElfsightInstagramFeed = () => {
     const [isLoading, setIsLoading] = useState(true);
 
+    // useEffect(() => {
+    //     // Create and append the Elfsight script
+    //     const script = document.createElement('script');
+    //     script.src = "https://static.elfsight.com/platform/platform.js";
+    //     script.defer = true;
+    //     script.dataset.useServiceCore = true;
+    //     document.body.appendChild(script);
+
+    //     const handleScriptLoad = () => {
+    //         setIsLoading(false);
+    //     };
+
+    //     script.addEventListener('load', handleScriptLoad);
+
+    //     return () => {
+    //         script.removeEventListener('load', handleScriptLoad);
+    //         document.body.removeChild(script);
+    //     };
+    // }, []);
     useEffect(() => {
-        // Create and append the Elfsight script
-        const script = document.createElement('script');
-        script.src = "https://static.elfsight.com/platform/platform.js";
-        script.defer = true;
-        script.dataset.useServiceCore = true;
-        document.body.appendChild(script);
-
-        const handleScriptLoad = () => {
+        const runFunc = () => {
+            const script = document.createElement('script');
+            script.src = "https://static.elfsight.com/platform/platform.js";
+            script.defer = true;
+            script.dataset.useServiceCore = true;
+            document.body.appendChild(script);
             setIsLoading(false);
-        };
-
-        script.addEventListener('load', handleScriptLoad);
-
-        return () => {
-            script.removeEventListener('load', handleScriptLoad);
-            document.body.removeChild(script);
-        };
+            return () => {
+                document.body.removeChild(script);
+            };
+        }
+        setTimeout(runFunc, 1000);
     }, []);
-
     useEffect(() => {
         const removeNoreferrerLink = () => {
             setTimeout(() => {
