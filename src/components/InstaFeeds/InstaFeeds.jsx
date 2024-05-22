@@ -18,7 +18,7 @@ const ElfsightInstagramFeed = () => {
                         anchorTag.remove();
                     }
                 }
-            }, 1000); // Adjust the delay time as needed
+            }, 1500); // Adjust the delay time as needed
         };
 
         // Add an event listener to ensure the removal script runs after the widget is loaded
