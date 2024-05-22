@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import CircularProgress from '@mui/material/CircularProgress';
 const ElfsightInstagramFeed = () => {
     const [isLoading, setIsLoading] = useState(true);
-
     // useEffect(() => {
     //     // Create and append the Elfsight script
     //     const script = document.createElement('script');
@@ -22,37 +21,52 @@ const ElfsightInstagramFeed = () => {
     //         document.body.removeChild(script);
     //     };
     // }, []);
+
+
     useEffect(() => {
-        const runFunc = () => {
-            const script = document.createElement('script');
-            script.src = "https://static.elfsight.com/platform/platform.js";
-            script.defer = true;
-            script.dataset.useServiceCore = true;
-            document.body.appendChild(script);
+        // Create and append the Elfsight script
+        const script = document.createElement('script');
+        script.src = "https://static.elfsight.com/platform/platform.js";
+        script.defer = true;
+        script.dataset.useServiceCore = true;
+        document.body.appendChild(script);
+
+        const handleScriptLoad = () => {
             setIsLoading(false);
-            return () => {
-                document.body.removeChild(script);
-            };
-        }
-        setTimeout(runFunc, 1000);
-    }, []);
-    useEffect(() => {
-        const removeNoreferrerLink = () => {
-            setTimeout(() => {
-                const elfsightWidget = document.querySelector('.elfsight-app-9c7ac327-d995-46a0-867c-28d6d25459ee');
-                if (elfsightWidget) {
-                    const anchorTag = elfsightWidget.querySelector('a[rel="noreferrer"]');
-                    if (anchorTag) {
-                        anchorTag.remove();
-                    }
-                }
-            }, 1000); // Adjust the delay time as needed
         };
 
-        if (!isLoading) {
-            removeNoreferrerLink();
-        }
+        script.addEventListener('load', handleScriptLoad);
+
+        return () => {
+            script.removeEventListener('load', handleScriptLoad);
+            document.body.removeChild(script);
+        };
+    }, []);
+
+    const removeNoreferrerLink = () => {
+        setTimeout(() => {
+            const elfsightWidget = document.querySelector('.elfsight-app-9c7ac327-d995-46a0-867c-28d6d25459ee');
+            if (elfsightWidget) {
+                const anchorTags = elfsightWidget.querySelectorAll('a[href="https://elfsight.com/social-feed-widget/?utm_source=websites&utm_medium=clients&utm_content=social-feed&utm_term=localhost&utm_campaign=free-widget"]');
+                anchorTags.forEach(anchorTag => {
+                    if (anchorTag.getAttribute('rel') === 'noreferrer') {
+                        anchorTag.remove();
+                    }
+                });
+            }
+        }, 1000); // Adjust the delay time as needed
+    };
+
+    useEffect(() => {
+        removeNoreferrerLink();
     }, [isLoading]);
+
+
+
+
+
+
+
     // useEffect(() => {
     //     // Create and append the Elfsight script
     //     const script = document.createElement('script');
