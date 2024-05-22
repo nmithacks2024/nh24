@@ -1,6 +1,7 @@
-import React, { useEffect } from 'react';
-
+import React, { useEffect, useState } from 'react';
+import CircularProgress from '@mui/material/CircularProgress';
 const ElfsightInstagramFeed = () => {
+    const [display, setDisplay] = useState(false);
     useEffect(() => {
         // Create and append the Elfsight script
         const script = document.createElement('script');
@@ -32,6 +33,7 @@ const ElfsightInstagramFeed = () => {
         return () => {
             script.removeEventListener('load', handleScriptLoad);
             document.body.removeChild(script);
+            setDisplay(true)
         };
     }, []);
     return (
@@ -39,10 +41,17 @@ const ElfsightInstagramFeed = () => {
         //     <div className='py-10 flex justify-start items-start w-[100%]'>
         //         <p className='text-6xl text-white'>Insta Feeds</p>
         //     </div>
-        <div
-            className="elfsight-app-9c7ac327-d995-46a0-867c-28d6d25459ee"
-            data-elfsight-app-lazy
-            style={{ width: '100%', height: '100%' }}>
+        <div>
+            {display ? (
+                <div
+                    className="elfsight-app-9c7ac327-d995-46a0-867c-28d6d25459ee"
+                    data-elfsight-app-lazy
+                    showThumbs={false}
+                    style={{ width: '100%', height: '100%' }}>
+                </div>
+            ) : (
+                <CircularProgress color="secondary" />
+            )}
         </div>
         // </div>
     )
