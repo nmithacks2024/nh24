@@ -31,8 +31,8 @@ const ElfsightInstagramFeed = () => {
         script.addEventListener('load', handleScriptLoad);
 
         return () => {
-            script.removeEventListener('load', handleScriptLoad);
             document.body.removeChild(script);
+            script.removeEventListener('load', handleScriptLoad);
             //setDisplay(true)
         };
     }, []);
