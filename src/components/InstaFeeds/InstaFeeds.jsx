@@ -25,10 +25,6 @@ const ElfsightInstagramFeed = () => {
 
     const [isScriptLoaded, setIsScriptLoaded] = useState(false);
     const [isLoading, setIsLoading] = useState(true);
-    const resetStates = () => {
-        setIsLoading(true);
-        setIsScriptLoaded(false);
-    };
 
     useEffect(() => {
         const scriptId = `elfsight-script-${Math.random().toString(36).substring(7)}`;
@@ -53,9 +49,9 @@ const ElfsightInstagramFeed = () => {
     }, []);
 
     useEffect(() => {
-        if (isScriptLoaded) {
+        // if (isScriptLoaded) {
             setIsLoading(!isLoading);
-        }
+        // }
     }, [isScriptLoaded]);
 
     const removeNoreferrerLink = () => {
