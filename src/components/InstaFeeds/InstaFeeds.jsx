@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import CircularProgress from '@mui/material/CircularProgress';
 const ElfsightInstagramFeed = () => {
-    //const [display, setDisplay] = useState(false);
+    const [display, setDisplay] = useState(true);
     useEffect(() => {
         // Create and append the Elfsight script
         const script = document.createElement('script');
@@ -19,36 +19,45 @@ const ElfsightInstagramFeed = () => {
                         anchorTag.remove();
                     }
                 }
-            }, 1500); // Adjust the delay time as needed
+            }, 1000); // Adjust the delay time as needed
         };
 
         const handleScriptLoad = () => {
             if (typeof removeNoreferrerLink === 'function') {
                 removeNoreferrerLink();
             }
+            setDisplay(false);
         };
 
         script.addEventListener('load', handleScriptLoad);
 
         return () => {
-            document.body.removeChild(script);
             script.removeEventListener('load', handleScriptLoad);
-            //setDisplay(true)
+            document.body.removeChild(script);
         };
-    }, []);
-    return (
-        // <div className='w-[100%] h-[100%] mx-auto flex flex-col justify-start items-center'>
-        //     <div className='py-10 flex justify-start items-start w-[100%]'>
-        //         <p className='text-6xl text-white'>Insta Feeds</p>
-        //     </div>
-        <div
-            className="elfsight-app-9c7ac327-d995-46a0-867c-28d6d25459ee"
-            data-elfsight-app-lazy
-            showThumbs={false}
-            style={{ width: '100%', height: '100%' }}>
-        </div>
 
+    }, []);
+
+    return (
+        // <div
+        //     className="elfsight-app-9c7ac327-d995-46a0-867c-28d6d25459ee"
+        //     data-elfsight-app-lazy
+        //     showThumbs={false}
+        //     style={{ width: '100%', height: '100%' }}>
         // </div>
+        <div className='w-[100%] h-[100%] flex justify-center items-center'>
+            {display ? (
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+                    <CircularProgress />
+                </div>
+            ) : (
+                <div
+                    className="elfsight-app-9c7ac327-d995-46a0-867c-28d6d25459ee"
+                    data-elfsight-app-lazy
+                    style={{ width: '100%', height: '100%' }}
+                />
+            )}
+        </div>
     )
 };
 
