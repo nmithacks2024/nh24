@@ -54,7 +54,7 @@ const ElfsightInstagramFeed = () => {
                     }
                 });
             }
-        }, 1000); // Adjust the delay time as needed
+        }, 4000); // Adjust the delay time as needed
     };
 
     useEffect(() => {
