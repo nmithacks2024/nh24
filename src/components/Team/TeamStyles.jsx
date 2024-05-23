@@ -13,7 +13,7 @@ export const CardWrapper = styled.div`
   padding:30px 1px;
   border-radius: 18px;
   background-color: #ffffff33;
-  box-shadow: 5px 5px 15px rgba(240, 239, 239, 0.4);
+  //box-shadow: 5px 5px 15px rgba(240, 239, 239, 0.4);
   text-align: center;
   @media (min-width: 470px) and (max-width: 715px) {
     width:12rem;
