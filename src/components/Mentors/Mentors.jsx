@@ -40,7 +40,7 @@ function Mentors() {
                             ribbonLink.remove();
                         }
                     }
-                }, 1000); // Adjust the delay time as needed
+                }, 4000); // Adjust the delay time as needed
             };
 
             const handleScriptLoad = () => {
