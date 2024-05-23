@@ -13,6 +13,7 @@ import {
   PrizeSection,
 } from "./components";
 import InstaFeeds from "./components/InstaFeeds/InstaFeeds";
+import Mentors from "./components/Mentors/Mentors";
 //import { useEffect } from "react";
 <link />;
 
@@ -41,6 +42,9 @@ const App = () => (
         </div>
         <div className="sec bg-primary" id="prizes">
           <PrizeSection />
+        </div>
+        <div className="sec bg-primary" id="prizes">
+          <Mentors />
         </div>
         <div className="sec bg-primary" id="timeline">
           <Timeline />
