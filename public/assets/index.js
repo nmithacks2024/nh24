@@ -59,6 +59,8 @@ import TheDevArmy from "./theDevArmy.png";
 import SandLogic from "./sand logic-01.png";
 import QuillAudit from "./QuillAudits_Logo_(Horizontal_-_White).png";
 import CoinEx from './coinex pic with blue dot.png'	
+import judge1 from "./judge1.png";
+import judge2 from "./judge2.png";
 
 export {
 	logo,
@@ -120,4 +122,6 @@ export {
 	vikitha,
 	Yuvika,
 	wolfram,
+	judge1,
+	judge2
 };
