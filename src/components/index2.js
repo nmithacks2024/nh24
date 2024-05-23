@@ -51,7 +51,7 @@ export const GoldSponsors = [
     {
         imageUrl: OxDay,
         name: "0xDay",
-        URL: "https://0x.org/"
+        URL: "https://0x.day/"
         
     }
 
