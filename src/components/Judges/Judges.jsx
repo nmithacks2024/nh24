@@ -37,6 +37,7 @@ function Judges() {
             </div>
         )
     );
+
     return (
         <div>
             <div className='text-white font-bold text-4xl text-center'>
@@ -58,9 +59,11 @@ function Judges() {
                 {judges.map((judge, i) => {
                     return (
                         <div className='flex justify-center items-center py-10'>
-                            <CardWrapper>
-                                <img src={judge.src} alt="" />
-                            </CardWrapper>
+                            <a href={judge.linkedin}>
+                                <CardWrapper>
+                                    <img src={judge.src} alt="" />
+                                </CardWrapper>
+                            </a>
                         </div>
                     )
                 })}

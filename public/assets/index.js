@@ -63,8 +63,22 @@ import judge1 from "./judge1.png";
 import judge2 from "./judge2.png";
 import judge3 from "./judge3.png";
 import judge4 from "./judge4.png";
-
-
+import pjudge1 from "./pjudge1.png";
+import pjudge2 from "./pjudge2.png";
+import pjudge3 from "./pjudge3.png";
+import pjudge4 from "./pjudge4.png";
+import pjudge5 from "./pjudge5.png";
+import mentor1 from "./mentor1.png";
+import mentor2 from "./mentor2.png";
+import mentor3 from "./mentor3.png";
+import mentor4 from "./mentor4.png";
+import mentor5 from "./mentor5.png";
+import mentor6 from "./mentor6.png";
+import mentor7 from "./mentor7.png";
+import mentor8 from "./mentor8.png";
+import mentor9 from "./mentor9.png";
+import mentor10 from "./mentor10.png";
+import mentor11 from "./mentor11.png";
 
 export {
 	logo,
@@ -129,5 +143,21 @@ export {
 	judge1,
 	judge2,
 	judge3,
-	judge4
+	judge4,
+	pjudge1,
+	pjudge2, 
+	pjudge3,
+	pjudge4,
+	pjudge5,
+	mentor1,
+	mentor2,
+	mentor3,
+	mentor4,
+	mentor5,
+	mentor6,
+	mentor7,
+	mentor8,
+	mentor9,
+	mentor10,
+	mentor11
 };

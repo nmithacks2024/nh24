@@ -40,6 +40,7 @@ function TeamCarosel() {
             </div>
         )
     );
+    
     const handleHoverEnter = (i) => {
         setOnHover(i)
         setPauseLoop(true);
@@ -48,6 +49,7 @@ function TeamCarosel() {
         setOnHover(null)
         setPauseLoop(false);
     }
+
     return (
         <Carousel
             preventMovementUntilSwipeScrollTolerance={true}

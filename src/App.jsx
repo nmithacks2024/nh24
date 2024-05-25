@@ -1,4 +1,5 @@
 import styles from "./style";
+import "./index.css"
 import TeamCarosel from "./components/Team/TeamCarosel";
 import {
   AnimatedTooltip,
@@ -13,8 +14,9 @@ import {
   PrizeSection,
 } from "./components";
 import InstaFeeds from "./components/InstaFeeds/InstaFeeds";
-import Mentors from "./components/Mentors/Mentors";
+import Mentors2 from "./components/Mentors/Mentors2.jsx";
 import Judges from "./components/Judges/Judges";
+import PrinimaryJudges from "./components/PrinimaryJudges/PrinimaryJudges";
 //import { useEffect } from "react";
 <link />;
 
@@ -48,7 +50,10 @@ const App = () => (
           <Judges />
         </div>
         <div className="sec bg-primary" id="prizes">
-          <Mentors />
+          <PrinimaryJudges />
+        </div>
+        <div className="sec bg-primary" id="prizes">
+          <Mentors2 />
         </div>
         <div className="sec bg-primary" id="timeline">
           <Timeline />
