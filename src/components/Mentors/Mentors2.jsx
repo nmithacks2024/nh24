@@ -11,10 +11,9 @@ const Mentors2 = () => {
                         return <a href={mentor.linkedin}><img className="mx-4 inline h-56 lg:h-48 md:h-44 sm:h-40 xxs:h-36 rounded-xl" src={mentor.src} alt="" /></a>
                     })}
                 </div>
-
                 <div className="animate-slide-left-infinite group-hover:animation-pause inline-block w-max">
                     {mentors.map((mentor, i) => {
-                        return <img className="mx-4 inline h-56 lg:h-48 md:h-44 sm:h-40 xxs:h-36 rounded-xl" src={mentor} alt="" />
+                        return <a href={mentor.linkedin}><img className="mx-4 inline h-56 lg:h-48 md:h-44 sm:h-40 xxs:h-36 rounded-xl" src={mentor.src} alt="" /></a>
                     })}
                 </div>
             </div>
