@@ -54,7 +54,7 @@ function Judges() {
                 emulateTouch={true}
                 infiniteLoop
                 showStatus={false}
-                interval={2000}
+                interval={1000}
             >
                 {judges.map((judge, i) => {
                     return (
