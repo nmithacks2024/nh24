@@ -82,11 +82,12 @@ const Hero = () => {
         </div>
 
        
-        <div className="text-[#f84611] lg:text-[30px] sm:text-[29px] xs:text-[21px] xxs:text-[12px] font-bold xxs:mt-[-50px] flex flex-col items-center justify-center">
-          <span>Note:-</span><div className="items-center justify-center text-center"> Results are out!  <br/> Check your emails with fingers crossed!🤞🏽
-          </div>
-        
-        </div>
+        <div
+          className="apply-button devfolio"
+          data-hackathon-slug="nmithacks24"
+          data-button-theme="dark"
+          style={{ height: "44px", width: "312px" }}
+        ></div> 
        
       </div>
     
