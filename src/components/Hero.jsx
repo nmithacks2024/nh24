@@ -9,7 +9,7 @@ import Footer from "./Footer.jsx";
 const Hero = () => {
   const sentence = "National-Level 48-Hour Hackathon".split("");
   const sentence1 = " by the Dept. of CSE, NMIT".split("");
-  const sentence2 = "24th - 26th May, 2024".split("");
+  const sentence2 = "16th - 18th May, 2025".split("");
   const sentence3 = "Nitte Meenakshi Institute of Technology, Bengaluru".split(
     ""
   );
@@ -82,11 +82,11 @@ const Hero = () => {
         </div>
 
        
-        <div className="text-[#f84611] lg:text-[30px] sm:text-[29px] xs:text-[21px] xxs:text-[12px] font-bold xxs:mt-[-50px] flex flex-col items-center justify-center">
+        {/* <div className="text-[#f84611] lg:text-[30px] sm:text-[29px] xs:text-[21px] xxs:text-[12px] font-bold xxs:mt-[-50px] flex flex-col items-center justify-center">
           <span>Note:-</span><div className="items-center justify-center text-center"> Results are out!  <br/> Check your emails with fingers crossed!🤞🏽
           </div>
         
-        </div>
+        </div> */}
        
       </div>
     
@@ -123,9 +123,9 @@ const Hero = () => {
             </h2>
 
           </div>
-          <div className="py-10 lg:py-5 sm:py-5">
+          {/* <div className="py-10 lg:py-5 sm:py-5">
             <CountDown />
-          </div>
+          </div> */}
           {/* <div className="flex flex-col justify-center items-center mt-10">
             <div className="text-white mb-5 text-center">
               To view our Core Members of this club please click on the below 👇 button

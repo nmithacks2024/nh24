@@ -32,12 +32,12 @@ const App = () => (
         <Hero />
       </div>
     </div>
-    <div className={` ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth} w-full`}>
-        <div className={`${styles.paddingY} bg-primary `} id="aboutus">
+    <div className={` ${styles.paddingX} ${styles.flexStart} min-w-full`}>
+      <div className={`${styles.boxWidth} min-w-full`}>
+        <div className={`${styles.paddingY} bg-primary min-w-full`} id="aboutus">
           <AboutUs />
         </div>
-        <div className="sec bg-primary" id="sponsors">
+        <div className="sec bg-primary" id="instaFeeds">
           <InstaFeeds />
         </div>
         <div className="sec bg-primary " id="tracks">
