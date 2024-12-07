@@ -9,7 +9,7 @@ import Footer from "./Footer.jsx";
 const Hero = () => {
   const sentence = "National-Level 48-Hour Hackathon".split("");
   const sentence1 = " by the Dept. of CSE, NMIT".split("");
-  const sentence2 = "24th - 26th May, 2024".split("");
+  const sentence2 = "16th - 18th May, 2025".split("");
   const sentence3 = "Nitte Meenakshi Institute of Technology, Bengaluru".split(
     ""
   );
@@ -82,6 +82,7 @@ const Hero = () => {
         </div>
 
        
+
         <div
           className="apply-button devfolio"
           data-hackathon-slug="nmithacks24"
@@ -118,15 +119,15 @@ const Hero = () => {
               </span>{" "}
               of our hackathon forged by fire. This is{" "}
               <span className="text-secondary font-semiBold ">
-                NMIT Hacks 2024
+                NMIT Hacks 2024.
               </span>
-              .
+              
             </h2>
 
           </div>
-          <div className="py-10 lg:py-5 sm:py-5">
+          {/* <div className="py-10 lg:py-5 sm:py-5">
             <CountDown />
-          </div>
+          </div> */}
           {/* <div className="flex flex-col justify-center items-center mt-10">
             <div className="text-white mb-5 text-center">
               To view our Core Members of this club please click on the below 👇 button

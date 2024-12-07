@@ -1,7 +1,7 @@
 import Reveal from "./Reveal";
 import { SponsorIcon, PlatinumSponsors, GoldSponsors, SilverSponsors, CommunitySponsors, drinkSponsors } from "./index2";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import nh24_brochure from './NH-24.pdf';
+import nh25_brochure from './nh25_brochure.pdf';
 import "./hover.css"
 import { CardWrapper, CardWrapper2 } from "./SponsorStyles";
 const Sponsors = () => {
@@ -17,9 +17,9 @@ const Sponsors = () => {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.download = "nh24-brochure";
+    link.download = "nh25-brochure";
 
-    link.href = nh24_brochure;
+    link.href = nh25_brochure;
 
     link.click();
   };
@@ -28,7 +28,7 @@ const Sponsors = () => {
     <div className="py-[90px]">
       <Reveal>
         <h1 className="right-0 text-[64px] font-medium leading-tight text-white">
-          Sponsors
+          Previous Year's Sponsors
         </h1>
       </Reveal>
       <div className="mt-16 flex flex-col justify-center items-center text-lg mx-auto">
@@ -149,7 +149,7 @@ const Sponsors = () => {
         <div className="relative max-w-md w-full p-8 bg-white bg-opacity-20 rounded-lg backdrop-blur-md shadow-lg transition duration-300 ease-in-out transform hover:shadow-xl mt-20 xs:mt-[1rem]">
 
           <p className="text-white mb-4 text-lg">
-            Interested in sponsoring NMIT Hacks 2024? Click the button below!
+            Interested in sponsoring NMIT Hacks 2025? Click the button below!
           </p>
 
           <button className="bg-secondary hover:bg-transparent border-2 border-secondary  hover:text-secondary text-primary font-bold py-2 px-4 rounded inline-flex items-center" onClick={handleDownload}>
