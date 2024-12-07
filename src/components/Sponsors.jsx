@@ -27,7 +27,9 @@ const Sponsors = () => {
   return (
     <div className="py-[90px]">
       <Reveal>
-        <h1 className="right-0 text-[64px] font-medium leading-tight text-white">
+        <h1
+          className="text-[32px] sm:text-[40px] md:text-[48px] lg:text-[54px] font-medium text-white"
+        >
           Previous Year's Sponsors
         </h1>
       </Reveal>
@@ -67,8 +69,8 @@ const Sponsors = () => {
                 <img
                   src={GoldSponsors.imageUrl}
                   alt={GoldSponsors.name}
-                  className={`${GoldSponsors.name=="SandLogic" ? "w-[50%] h-[50%]" : " w-[90%] h-[90%]"} object-contain`}
-                  
+                  className={`${GoldSponsors.name == "SandLogic" ? "w-[50%] h-[50%]" : " w-[90%] h-[90%]"} object-contain`}
+
                 />
               </a>
             </CardWrapper>
@@ -135,7 +137,7 @@ const Sponsors = () => {
                 <img
                   src={CommunitySponsors.imageUrl}
                   alt={CommunitySponsors.name}
-                  className={`${CommunitySponsors.name=="Blockchain India" ? "w-[90%] h-[90%]" : "w-[70%] h-[60%]"} object-contain`}
+                  className={`${CommunitySponsors.name == "Blockchain India" ? "w-[90%] h-[90%]" : "w-[70%] h-[60%]"} object-contain`}
                 />
               </a>
             </CardWrapper>
