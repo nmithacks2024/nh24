@@ -66,17 +66,17 @@ export const stats = [
   {
     id: "stats-1",
     title: "On-Campus Participants",
-    value: "150+",
+    value: "170+",
   },
   {
     id: "stats-2",
     title: "Applications Received",
-    value: "1850+",
+    value: "2200+",
   },
   {
     id: "stats-3",
     title: "Reach on Social Media",
-    value: "10,000+",
+    value: "15,000+",
   },
 ];
 
